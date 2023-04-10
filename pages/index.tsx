@@ -9,7 +9,7 @@ export default function Home() {
         <title>Sri Poongavin Medical Center</title>
       </Head>
       <main className="min-h-screen bg-slate-50 bg-gradient-to-r from-blue-400 to-blue-700">
-        <div className="absolute flex flex-col items-center w-full h-full p-10">
+        <div className="absolute flex flex-col items-center w-full h-full p-2 md:p-10">
           <h3 className="mt-10 text-5xl text-slate-100">
             Sri Poongavin Medical Center
           </h3>
