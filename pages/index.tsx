@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <title>Sri Poongavin Medical Center</title>
       </Head>
-      <main className="min-h-screen bg-slate-50 bg-gradient-to-r from-cyan-500 to-blue-700">
+      <main className="min-h-screen bg-slate-50 bg-gradient-to-r from-blue-400 to-blue-700">
         <div className="absolute flex flex-col items-center w-full h-full p-10">
           <h3 className="mt-10 text-5xl text-slate-100">
             Sri Poongavin Medical Center
@@ -22,7 +22,7 @@ export default function Home() {
               Consultant Physician And Neurologist Krishnagiri
             </p>
           </div>
-          <div className="flex flex-col items-center justify-between gap-6 mt-48 text-4xl text-slate-100">
+          <div className="flex flex-col items-center justify-between gap-6 mt-10 text-4xl md:mt-48 text-slate-100">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
