@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <div className={`${inter.className}`}>
       <Head>
-        <title>Sri Poongavin Medical Center</title>
+        <title>Sri Poongavin Medical Center.</title>
       </Head>
       <header>
         <Header1 />
