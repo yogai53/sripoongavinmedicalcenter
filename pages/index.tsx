@@ -1,5 +1,3 @@
-import Head from "next/head";
-import { Montserrat } from "next/font/google";
 import {
   Achievements,
   Appointment,
@@ -7,25 +5,17 @@ import {
   Body,
   Departments,
   Feature,
-  Footer,
-  Header1,
-  Header2,
   Services,
   Testimonial,
 } from "@/components/home";
-
-const inter = Montserrat({ subsets: ["latin"] });
+import Head from "next/head";
 
 export default function Home() {
   return (
-    <div className={`${inter.className}`}>
+    <div>
       <Head>
         <title>Sri Poongavin Medical Center.</title>
       </Head>
-      <header>
-        <Header1 />
-        <Header2 />
-      </header>
       <Body />
       <Feature />
       <Services />
@@ -48,7 +38,6 @@ export default function Home() {
       <div className="px-4 lg:px-36 lg:py-24 bg-sky-50">
         <Testimonial />
       </div>
-      <Footer />
     </div>
   );
 }

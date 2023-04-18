@@ -1,6 +1,7 @@
 import { hospitalName } from "@/constants/hospital";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import Link from "next/link";
 import { useState } from "react";
 
 export default function Header2() {
@@ -36,25 +37,43 @@ export default function Header2() {
           </button>
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <Link
+            href="/"
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
             Home
-          </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          </Link>
+          <Link
+            href="/contact"
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
             About
-          </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          </Link>
+          <Link
+            href="/services"
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
             Services
-          </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          </Link>
+          <Link
+            href="/departments"
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
             Departments
-          </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          </Link>
+          <Link
+            href="/doctors/chennappan"
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
             Doctors
-          </a>
+          </Link>
 
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <Link
+            href="/contact"
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
             Contact
-          </a>
+          </Link>
         </div>
       </nav>
       <Dialog

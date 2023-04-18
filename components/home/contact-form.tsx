@@ -1,10 +1,11 @@
 export default function ContactForm() {
   return (
     <div className="flex flex-col gap-4 lg:px-36 text-sky-900">
-      <h1 className="text-5xl font-bold text-sky-900">Book appoinment</h1>
+      <h1 className="text-5xl font-bold text-sky-900">Contact us</h1>
+      <div className="w-1/6 border border-red-500 border-solid lg:w-1/12 border-y-4"></div>
       <p className="">
-        Mollitia dicta commodi est recusandae iste, natus eum asperiores
-        corrupti qui velit . Iste dolorum atque similique praesentium soluta.
+        Laboriosam exercitationem molestias beatae eos pariatur, similique,
+        excepturi mollitia sit perferendis maiores ratione aliquam?
       </p>
       <form className="mt-5">
         <div>
@@ -54,6 +55,7 @@ export default function ContactForm() {
               id="message"
               className="block w-full p-3 border-0 rounded-md shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:sky-900 sm:text-sm sm:leading-6"
               placeholder="Type here"
+              rows={5}
             />
           </div>
         </div>
