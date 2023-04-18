@@ -1,0 +1,14 @@
+export { default as Header1 } from "./header1";
+export { default as Header2 } from "./header2";
+export { default as Body } from "./body";
+export { default as Feature } from "./feature";
+export { default as Availability } from "./availablity";
+export { default as Services } from "./services";
+export { default as Achievements } from "./achievements";
+export { default as Awards } from "./awards";
+export { default as Departments } from "./departments";
+export { default as ContactForm } from "./contact-form";
+export { default as ContactPhone } from "./contact-phone";
+export { default as Appointment } from "./appointment";
+export { default as Testimonial } from "./testimonial";
+export { default as Footer } from "./footer";
