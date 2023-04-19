@@ -1,3 +1,5 @@
+import { bookingPhone } from "@/constants/hospital";
+import Link from "next/link";
 import React from "react";
 
 export default function Body() {
@@ -15,9 +17,17 @@ export default function Body() {
           A repudiandae ipsam labore ipsa voluptatum quidem quae laudantium
           quisquam aperiam maiores sunt fugit, deserunt rem suscipit placeat.
         </p>
-        <button className="p-3 mt-4 text-xl text-white bg-red-500 rounded-full lg:w-1/2">
-          Make appointment
-        </button>
+        <Link
+          href={`tel:${bookingPhone}`}
+          className="px-12 py-4 mt-4 text-xl text-white bg-red-500 rounded-full lg:w-fit"
+        >
+          Book Appointment:{" "}
+          {bookingPhone.substring(0, 3) +
+            " " +
+            bookingPhone.substring(3, 7) +
+            " " +
+            bookingPhone.substring(7, 13)}
+        </Link>
       </div>
     </div>
   );

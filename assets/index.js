@@ -1,0 +1,17 @@
+export { default as Diabetes } from "./diabetes.jpeg";
+export { default as GeneralMedicine } from "./general-medicine.jpeg";
+export { default as BloodPressure } from "./blood-pressure.jpeg";
+export { default as Dementia } from "./dementia.jpeg";
+export { default as FacialPalsy } from "./facial-palsy.jpeg";
+export { default as Headache } from "./headache.jpeg";
+export { default as Insomnia } from "./insomnia.jpeg";
+export { default as NeckPain } from "./neck-pain.jpeg";
+export { default as NeuralPain } from "./neural-pain.jpeg";
+export { default as Numbness } from "./numbness.jpeg";
+export { default as Parkinson } from "./parkinson.jpeg";
+export { default as Stroke } from "./stroke.jpeg";
+export { default as Tremor } from "./tremor.jpeg";
+export { default as Vertigo } from "./vertigo.webp";
+export { default as Cardiology } from "./cardiology.jpeg";
+export { default as Neurology } from "./neurology.jpeg";
+export { default as DrChennappan } from "./drchennappan.jpeg";

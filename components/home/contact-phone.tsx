@@ -1,5 +1,7 @@
 import React from "react";
 import { PhoneIcon } from "@heroicons/react/24/solid";
+import { emergencyPhone } from "@/constants/hospital";
+import Link from "next/link";
 
 export default function ContactPhone() {
   return (
@@ -11,7 +13,15 @@ export default function ContactPhone() {
       <div className="p-6 text-5xl font-extrabold text-white lg:absolute lg:-right-24 lg:bottom-5 bg-sky-900">
         <div className="flex flex-row items-center justify-between gap-4">
           <PhoneIcon className="w-8 h-8" />
-          <span>+23 23 12 43 12</span>
+          <Link href={`tel:${emergencyPhone}`}>
+            <span>
+              {emergencyPhone.substring(0, 3) +
+                " " +
+                emergencyPhone.substring(3, 7) +
+                " " +
+                emergencyPhone.substring(7, 13)}
+            </span>
+          </Link>
         </div>
       </div>
     </div>

@@ -1,6 +1,26 @@
 import Head from "next/head";
+import * as assets from "@/assets";
+import Image from "next/image";
 
-export default function Services() {
+const departments = [
+  {
+    title: "General Medicine",
+    image: <Image src={assets.GeneralMedicine} alt="Diabetes" />,
+    description: "பொது மருத்துவம்",
+  },
+  {
+    title: "Neurology",
+    image: <Image src={assets.Neurology} alt="Diabetes" />,
+    description: "நரம்பியல்",
+  },
+  {
+    title: "Cardiology",
+    image: <Image src={assets.Cardiology} alt="Diabetes" />,
+    description: "இதயவியல்",
+  },
+];
+
+export default function Departments() {
   return (
     <div>
       <Head>
@@ -22,66 +42,25 @@ export default function Services() {
         </p>
       </div>
       <div className="grid gap-4 py-12 mt-12 lg:grid-cols-3 lg:px-48">
-        <div className="flex flex-col gap-4 p-12 shadow-xl">
-          <img src="https://demo.themefisher.com/novena/images/service/service-1.jpg" />
-          <div>
-            <h2 className="text-2xl font-bold text-sky-900">Neurology</h2>
-            <p className="text-sky-900">
-              Saepe nulla praesentium eaque omnis perferendis a doloremque.
-            </p>
-            <p className="mt-4 cursor-pointer text-sky-900">Learn more {">"}</p>
+        {departments.map((department) => (
+          <div
+            className="flex flex-col gap-4 rounded-md shadow-xl"
+            key={department.title}
+          >
+            <div className="h-48 overflow-hidden rounded-md">
+              {department.image}
+            </div>
+            <div className="px-8 py-4">
+              <h2 className="text-2xl font-bold text-sky-900">
+                {department.title}
+              </h2>
+              <p className="text-sky-900">{department.description}</p>
+              <p className="mt-4 cursor-pointer text-sky-900">
+                Learn more {">"}
+              </p>
+            </div>
           </div>
-        </div>
-        <div className="flex flex-col gap-4 p-12 shadow-xl">
-          <img src="https://demo.themefisher.com/novena/images/service/service-1.jpg" />
-          <div>
-            <h2 className="text-2xl font-bold text-sky-900">Neurology</h2>
-            <p className="text-sky-900">
-              Saepe nulla praesentium eaque omnis perferendis a doloremque.
-            </p>
-            <p className="mt-4 cursor-pointer text-sky-900">Learn more {">"}</p>
-          </div>
-        </div>
-        <div className="flex flex-col gap-4 p-12 shadow-xl">
-          <img src="https://demo.themefisher.com/novena/images/service/service-1.jpg" />
-          <div>
-            <h2 className="text-2xl font-bold text-sky-900">Neurology</h2>
-            <p className="text-sky-900">
-              Saepe nulla praesentium eaque omnis perferendis a doloremque.
-            </p>
-            <p className="mt-4 cursor-pointer text-sky-900">Learn more {">"}</p>
-          </div>
-        </div>
-        <div className="flex flex-col gap-4 p-12 shadow-xl">
-          <img src="https://demo.themefisher.com/novena/images/service/service-1.jpg" />
-          <div>
-            <h2 className="text-2xl font-bold text-sky-900">Neurology</h2>
-            <p className="text-sky-900">
-              Saepe nulla praesentium eaque omnis perferendis a doloremque.
-            </p>
-            <p className="mt-4 cursor-pointer text-sky-900">Learn more {">"}</p>
-          </div>
-        </div>
-        <div className="flex flex-col gap-4 p-12 shadow-xl">
-          <img src="https://demo.themefisher.com/novena/images/service/service-1.jpg" />
-          <div>
-            <h2 className="text-2xl font-bold text-sky-900">Neurology</h2>
-            <p className="text-sky-900">
-              Saepe nulla praesentium eaque omnis perferendis a doloremque.
-            </p>
-            <p className="mt-4 cursor-pointer text-sky-900">Learn more {">"}</p>
-          </div>
-        </div>
-        <div className="flex flex-col gap-4 p-12 shadow-xl">
-          <img src="https://demo.themefisher.com/novena/images/service/service-1.jpg" />
-          <div>
-            <h2 className="text-2xl font-bold text-sky-900">Neurology</h2>
-            <p className="text-sky-900">
-              Saepe nulla praesentium eaque omnis perferendis a doloremque.
-            </p>
-            <p className="mt-4 cursor-pointer text-sky-900">Learn more {">"}</p>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   );

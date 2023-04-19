@@ -3,37 +3,55 @@ import { BeakerIcon, HeartIcon } from "@heroicons/react/24/solid";
 
 const departments = [
   {
-    name: "Laboratory services",
+    name: "General Medicine",
     icon: <BeakerIcon className="w-12 h-12 text-red-600" />,
     description:
       "Saepe nulla praesentium eaque omnis perferendis a doloremque.",
   },
   {
-    name: "Heart Disease",
+    name: "Blood Pressure",
     icon: <HeartIcon className="w-12 h-12 text-red-600" />,
     description:
       "Saepe nulla praesentium eaque omnis perferendis a doloremque.",
   },
   {
-    name: "Dental Care",
+    name: "Diabetes",
     icon: <BeakerIcon className="w-12 h-12 text-red-600" />,
     description:
       "Saepe nulla praesentium eaque omnis perferendis a doloremque.",
   },
   {
-    name: "Body Surgery",
+    name: "Headache",
     icon: <BeakerIcon className="w-12 h-12 text-red-600" />,
     description:
       "Saepe nulla praesentium eaque omnis perferendis a doloremque.",
   },
   {
-    name: "Neurology Surgery",
+    name: "Stroke",
     icon: <BeakerIcon className="w-12 h-12 text-red-600" />,
     description:
       "Saepe nulla praesentium eaque omnis perferendis a doloremque.",
   },
   {
-    name: "Gynaecology",
+    name: "Facial Palsy",
+    icon: <BeakerIcon className="w-12 h-12 text-red-600" />,
+    description:
+      "Saepe nulla praesentium eaque omnis perferendis a doloremque.",
+  },
+  {
+    name: "Vertigo",
+    icon: <BeakerIcon className="w-12 h-12 text-red-600" />,
+    description:
+      "Saepe nulla praesentium eaque omnis perferendis a doloremque.",
+  },
+  {
+    name: "Parkinson's Disease",
+    icon: <BeakerIcon className="w-12 h-12 text-red-600" />,
+    description:
+      "Saepe nulla praesentium eaque omnis perferendis a doloremque.",
+  },
+  {
+    name: "Dementia",
     icon: <BeakerIcon className="w-12 h-12 text-red-600" />,
     description:
       "Saepe nulla praesentium eaque omnis perferendis a doloremque.",

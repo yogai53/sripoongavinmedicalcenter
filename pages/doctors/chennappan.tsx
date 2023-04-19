@@ -1,4 +1,8 @@
+import { bookingPhone } from "@/constants/hospital";
 import Head from "next/head";
+import Link from "next/link";
+import Image from "next/image";
+import * as assets from "@/assets";
 
 export default function DoctorChennapan() {
   return (
@@ -12,7 +16,7 @@ export default function DoctorChennapan() {
       </div>
       <div className="flex flex-col items-center gap-6 px-2 py-16 lg:flex-row lg:px-36">
         <div className="flex flex-col gap-4 lg:w-1/3">
-          <img src="https://demo.themefisher.com/novena/images/team/1.jpg" />
+          <Image src={assets.DrChennappan} alt="Dr.Chennappan" />
           <div>
             <h2 className="text-2xl font-bold text-sky-900">Dr C Chennappan</h2>
             <p className="text-sky-900">Neurologist</p>
@@ -28,15 +32,19 @@ export default function DoctorChennapan() {
             provident ex, at ullam. Lorem ipsum dolor sit amet, consectetur
             adipisicing elit. Ipsam, perferendis officiis esse quae, nobis eius
             explicabo quidem? Officia accusamus repudiandae ea esse non
-            reiciendis accusantium voluptates, facilis enim, corrupti eligendi?
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
-            recusandae veritatis minus optio quod obcaecati laborum temporibus,
-            deleniti vero perferendis molestias, ducimus facilis, sunt minima.
-            Tempora, amet quasi asperiores voluptas?
+            reiciendis accusantium
           </p>
-          <button className="p-3 mt-4 text-xl text-white bg-red-500 rounded-full lg:w-1/2">
-            Make appointment
-          </button>
+          <Link
+            href={`tel:${bookingPhone}`}
+            className="p-3 px-6 mt-4 text-xl text-white bg-red-500 rounded-full lg:w-fit"
+          >
+            Book Appointment:{" "}
+            {bookingPhone.substring(0, 3) +
+              " " +
+              bookingPhone.substring(3, 7) +
+              " " +
+              bookingPhone.substring(7, 13)}
+          </Link>
         </div>
       </div>
       <div className="flex flex-col gap-4 px-2 py-2 mb-12 lg:py-16 lg:px-36 bg-sky-50">
@@ -48,7 +56,7 @@ export default function DoctorChennapan() {
           <div className="flex flex-col">
             <p className="text-xl font-bold text-gray-600">Year(2005-2007)</p>
             <p className="text-2xl font-bold text-sky-900">
-              MBBS, M.D at University of Wyoming
+              MBBS at Madras Medical College, Chennai
             </p>
             <p className="text-gray-500">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
@@ -60,7 +68,7 @@ export default function DoctorChennapan() {
           <div className="flex flex-col">
             <p className="text-xl font-bold text-gray-600">Year(2005-2007)</p>
             <p className="text-2xl font-bold text-sky-900">
-              MBBS, M.D at University of Wyoming
+              MD, General Medicine, PGI - Chandigarh
             </p>
             <p className="text-gray-500">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
@@ -72,19 +80,7 @@ export default function DoctorChennapan() {
           <div className="flex flex-col">
             <p className="text-xl font-bold text-gray-600">Year(2005-2007)</p>
             <p className="text-2xl font-bold text-sky-900">
-              MBBS, M.D at University of Wyoming
-            </p>
-            <p className="text-gray-500">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
-              doloremque harum, mollitia, soluta maxime porro veritatis fuga
-              autem impedit corrupti aperiam sint, architecto, error nesciunt
-              temporibus! Vel quod, dolor aliquam!
-            </p>
-          </div>
-          <div className="flex flex-col">
-            <p className="text-xl font-bold text-gray-600">Year(2005-2007)</p>
-            <p className="text-2xl font-bold text-sky-900">
-              MBBS, M.D at University of Wyoming
+              DM, Neuro, Madras Medical College, Chennai
             </p>
             <p className="text-gray-500">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi

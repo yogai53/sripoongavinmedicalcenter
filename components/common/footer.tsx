@@ -1,13 +1,12 @@
+import { emergencyPhone } from "@/constants/hospital";
 import { PlusCircleIcon } from "@heroicons/react/24/outline";
-import React from "react";
+import Link from "next/link";
 
 const navigation = {
   department: [
-    { name: "Surgery", href: "#" },
-    { name: "Wome's Health", href: "#" },
-    { name: "Radiology", href: "#" },
-    { name: "Cardioc", href: "#" },
-    { name: "Medicine", href: "#" },
+    { name: "Neurology", href: "#" },
+    { name: "General Medicine", href: "#" },
+    { name: "Cardiology", href: "#" },
   ],
   support: [
     { name: "Terms & Conditions", href: "#" },
@@ -144,19 +143,22 @@ export default function Footer() {
                   Get in Touch
                 </h3>
                 <div className="flex flex-col gap-4 mt-6">
-                  <div className="flex flex-col">
+                  <div className="flex flex-col gap-2">
                     <div className="flex flex-row text-sm text-gray-300">
                       <p>Support Available for 24/7 </p>
                     </div>
                     <p className="flex text-xl font-bold">
                       p.yoganandan@email.com
-                    </p>
-                  </div>
-                  <div className="flex flex-col">
-                    <div className="flex flex-row text-sm text-gray-300">
-                      <p>Support Available for 24/7</p>
-                    </div>
-                    <p className="text-2xl font-bold">+23-456-6588</p>
+                    </p>{" "}
+                    <Link href={`tel:${emergencyPhone}`}>
+                      <p className="text-xl font-bold">
+                        {emergencyPhone.substring(0, 3) +
+                          " " +
+                          emergencyPhone.substring(3, 7) +
+                          " " +
+                          emergencyPhone.substring(7, 13)}
+                      </p>
+                    </Link>
                   </div>
                 </div>
               </div>

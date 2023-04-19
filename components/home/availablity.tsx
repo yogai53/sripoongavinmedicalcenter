@@ -1,15 +1,11 @@
 const timings = [
   {
-    name: "Sun - Wed :",
-    time: "8:00 - 17:00",
+    name: "Monday - Saturday :",
+    time: "07:30AM - 07:30PM",
   },
   {
-    name: "Thu - Fri :",
-    time: "9:00 - 17:00",
-  },
-  {
-    name: "Sat - sun :",
-    time: "10:00 - 17:00",
+    name: "Sunday :",
+    time: "Closed",
   },
 ];
 

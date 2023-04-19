@@ -1,5 +1,6 @@
 import React from "react";
 import { ChevronRightIcon } from "@heroicons/react/24/outline";
+import Link from "next/link";
 export default function Services() {
   return (
     <div className="flex flex-col items-center justify-center gap-4 px-4 py-4 mt-20 lg:flex-row text-sky-900 lg:px-36">
@@ -30,10 +31,13 @@ export default function Services() {
           We provide best leading medicle service Nulla perferendis veniam
           deleniti ipsum officia dolores repellat laudantium obcaecati neque.
         </p>
-        <button className="flex flex-row items-center justify-between p-3 px-6 mt-4 font-semibold text-white bg-red-500 rounded-full text-md lg:w-1/2">
+        <Link
+          href="/services"
+          className="flex flex-row items-center justify-between p-3 px-6 mt-4 font-semibold text-white bg-red-500 rounded-full text-md lg:w-1/2"
+        >
           SERVICES
           <ChevronRightIcon className="w-4 h-4" aria-hidden="true" />
-        </button>
+        </Link>
       </div>
     </div>
   );
