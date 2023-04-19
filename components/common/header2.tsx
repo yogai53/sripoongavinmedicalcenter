@@ -14,7 +14,7 @@ export default function Header2() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">{hospitalName}</span>
             {/* <img
               className="w-auto h-8"
@@ -24,7 +24,7 @@ export default function Header2() {
             <h3 className="text-lg font-semibold text-sky-900">
               {hospitalName}
             </h3>
-          </a>
+          </Link>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -104,42 +104,42 @@ export default function Header2() {
             <div className="flow-root mt-6">
               <div className="-my-6 divide-y divide-gray-500/10">
                 <div className="py-6 space-y-2 text-center">
-                  <a
-                    href="#"
+                  <Link
+                    href="/"
                     className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
                   >
                     Home
-                  </a>
-                  <a
-                    href="#"
+                  </Link>
+                  <Link
+                    href="contact"
                     className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
                   >
                     About
-                  </a>
-                  <a
-                    href="#"
+                  </Link>
+                  <Link
+                    href="services"
                     className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
                   >
                     Services
-                  </a>
-                  <a
-                    href="#"
+                  </Link>
+                  <Link
+                    href="/departments"
                     className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
                   >
                     Departments
-                  </a>
-                  <a
-                    href="#"
+                  </Link>
+                  <Link
+                    href="/doctors/chennappan"
                     className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
                   >
                     Doctors
-                  </a>
-                  <a
-                    href="#"
+                  </Link>
+                  <Link
+                    href="/contact"
                     className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
                   >
                     Contact
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
