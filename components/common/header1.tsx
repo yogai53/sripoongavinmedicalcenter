@@ -1,11 +1,16 @@
-import { emergencyPhone } from "@/constants/hospital";
+import {
+  emergencyPhone,
+  hospitalEmail,
+  hospitalFullAddress,
+  hospitalName,
+  hospitalLocation,
+} from "@/constants/hospital";
 import {
   AtSymbolIcon,
   MapPinIcon,
   PhoneIcon,
 } from "@heroicons/react/24/outline";
 import Link from "next/link";
-import { useState } from "react";
 
 export default function Header1() {
   return (
@@ -15,14 +20,21 @@ export default function Header1() {
     >
       <div className="flex flex-col w-full lg:px-8 lg:flex-row gap-y-2 lg:gap-x-12 lg:justify-between">
         <div className="flex flex-col lg:flex-row gap-y-2 lg:gap-x-4">
-          <div className="flex gap-2 text-sm font-semibold leading-6">
+          <Link
+            href={`mailto:${hospitalEmail}Enquiry to ${hospitalName}`}
+            className="flex gap-2 text-sm font-semibold leading-6"
+          >
             <AtSymbolIcon className="w-6 h-6" aria-hidden="true" />
-            support@novena.com
-          </div>
-          <div className="flex gap-2 text-sm font-semibold leading-6">
+            {hospitalEmail}
+          </Link>
+          <Link
+            href={hospitalLocation}
+            target="_blank"
+            className="flex gap-2 text-sm font-semibold leading-6"
+          >
             <MapPinIcon className="w-6 h-6" aria-hidden="true" />
-            Address Ta-134/A, New York, USA
-          </div>
+            {hospitalFullAddress}
+          </Link>
         </div>
 
         <Link href={`tel:${emergencyPhone}`}>

@@ -1,6 +1,13 @@
 import { ContactForm } from "@/components/home";
-import { bookingPhone, emergencyPhone } from "@/constants/hospital";
-import { PhoneIcon } from "@heroicons/react/24/outline";
+import {
+  bookingPhone,
+  emergencyPhone,
+  hospitalEmail,
+  hospitalFullAddress,
+  hospitalLocation,
+  hospitalName,
+} from "@/constants/hospital";
+import { AppointmentCall, Email, EmergencyCall, Location } from "@/icons";
 import Head from "next/head";
 import Link from "next/link";
 
@@ -19,7 +26,7 @@ export default function Home() {
           href={`tel:${emergencyPhone}`}
           className="flex flex-col items-center gap-4 p-6 border-4 border-gray-200 border-solid lg:w-1/3"
         >
-          <PhoneIcon className="w-12 h-12 text-red-500" />
+          <EmergencyCall className="w-12 h-12 text-red-500" />
           <p className="text-2xl font-bold text-center text-sky-900">
             Emergency
           </p>
@@ -36,7 +43,7 @@ export default function Home() {
           href={`tel:${bookingPhone}`}
           className="flex flex-col items-center gap-4 p-6 border-4 border-gray-200 border-solid lg:w-1/3"
         >
-          <PhoneIcon className="w-12 h-12 text-red-500" />
+          <AppointmentCall className="w-12 h-12 text-red-500" />
           <p className="text-2xl font-bold text-center text-sky-900">
             Appointment
           </p>
@@ -49,22 +56,27 @@ export default function Home() {
               bookingPhone.substring(7, 13)}
           </p>
         </Link>
-        <div className="flex flex-col items-center gap-4 p-6 border-4 border-gray-200 border-solid lg:w-1/3">
-          <PhoneIcon className="w-12 h-12 text-red-500" />
+        <Link
+          href={`mailto:${hospitalEmail}Enquiry to ${hospitalName}`}
+          className="flex flex-col items-center gap-4 p-6 border-4 border-gray-200 border-solid lg:w-1/3"
+        >
+          <Email className="w-12 h-12 text-red-500" />
           <p className="text-2xl font-bold text-center text-sky-900">
             Email Us
           </p>
-          <p className="text-sky-900">contact@mail.com</p>
-        </div>
-        <div className="flex flex-col items-center gap-4 p-6 border-4 border-gray-200 border-solid lg:w-1/3">
-          <PhoneIcon className="w-12 h-12 text-red-500" />
+          <p className="text-sky-900">{hospitalEmail}</p>
+        </Link>
+        <Link
+          href={hospitalLocation}
+          target="_blank"
+          className="flex flex-col items-center gap-4 p-6 border-4 border-gray-200 border-solid lg:w-1/3"
+        >
+          <Location className="w-12 h-12 text-red-500" />
           <p className="text-2xl font-bold text-center text-sky-900">
             Location
           </p>
-          <p className="text-center text-sky-900">
-            North Main Street,Brooklyn Australia
-          </p>
-        </div>
+          <p className="text-center text-sky-900">{hospitalFullAddress}</p>
+        </Link>
       </div>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3894.862030556422!2d78.21731387557628!3d12.525297787750596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bac358e55d03359%3A0x3d66419726f8b4e4!2sgovt%20hospital%20krishnagiri!5e0!3m2!1sen!2sdk!4v1681835953164!5m2!1sen!2sdk"
@@ -74,7 +86,7 @@ export default function Home() {
         referrerPolicy="no-referrer-when-downgrade"
         className="w-full h-[500px] my-16"
       ></iframe>
-      <div className="px-2 lg:py-6 lg:px-48">
+      <div className="px-2 mb-12 lg:py-6 lg:px-48">
         <ContactForm />
       </div>
     </div>

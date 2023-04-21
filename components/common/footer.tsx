@@ -1,4 +1,8 @@
-import { emergencyPhone } from "@/constants/hospital";
+import {
+  emergencyPhone,
+  hospitalEmail,
+  hospitalName,
+} from "@/constants/hospital";
 import { PlusCircleIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 
@@ -72,7 +76,7 @@ export default function Footer() {
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
-      <div className="px-6 pt-16 pb-8 mx-auto max-w-7xl sm:pt-24 lg:px-8 lg:pt-32">
+      <div className="px-6 pb-8 mx-auto lg:pt-16 max-w-7xl sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-6">
             <div className="flex flex-row items-center gap-3">
@@ -103,7 +107,7 @@ export default function Footer() {
           <div className="grid gap-8 mt-16 md:grid-cols-2 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-sm font-semibold leading-6 text-white">
+                <h3 className="text-lg font-semibold leading-6 text-white">
                   Department
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
@@ -120,7 +124,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-white">
+                <h3 className="text-lg font-semibold leading-6 text-white">
                   Support
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
@@ -139,7 +143,7 @@ export default function Footer() {
             </div>
             <div className="text-white md:grid md:gap-8 md:grid-cols-2">
               <div>
-                <h3 className="text-sm font-semibold leading-6 ">
+                <h3 className="text-lg font-semibold leading-6 ">
                   Get in Touch
                 </h3>
                 <div className="flex flex-col gap-4 mt-6">
@@ -147,9 +151,12 @@ export default function Footer() {
                     <div className="flex flex-row text-sm text-gray-300">
                       <p>Support Available for 24/7 </p>
                     </div>
-                    <p className="flex text-xl font-bold">
-                      p.yoganandan@email.com
-                    </p>{" "}
+                    <Link
+                      href={`mailto:${hospitalEmail}Enquiry to ${hospitalName}`}
+                      className="flex text-xl font-bold"
+                    >
+                      {hospitalEmail}
+                    </Link>
                     <Link href={`tel:${emergencyPhone}`}>
                       <p className="text-xl font-bold">
                         {emergencyPhone.substring(0, 3) +
@@ -167,7 +174,7 @@ export default function Footer() {
         </div>
         <div className="pt-8 mt-16 border-t border-white/10 sm:mt-20 lg:mt-24">
           <p className="text-xs leading-5 text-gray-400">
-            &copy; 2020 Your Company, Inc. All rights reserved.
+            &copy; 2023 {hospitalName}, All rights reserved.
           </p>
         </div>
       </div>

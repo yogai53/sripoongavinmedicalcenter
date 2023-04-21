@@ -21,7 +21,7 @@ export default function ContactForm() {
               name="name"
               id="name"
               className="block w-full p-3 border-0 rounded-md shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:sky-900 sm:text-sm sm:leading-6"
-              placeholder="Alex"
+              placeholder="Your Name"
             />
           </div>
         </div>
@@ -54,13 +54,13 @@ export default function ContactForm() {
               name="message"
               id="message"
               className="block w-full p-3 border-0 rounded-md shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:sky-900 sm:text-sm sm:leading-6"
-              placeholder="Type here"
+              placeholder="Type your message here"
               rows={5}
             />
           </div>
         </div>
-        <div className="float-right mt-4">
-          <button className="p-4 px-12 text-white rounded-2xl bg-sky-900">
+        <div className="w-full mt-4 lg:float-right lg:w-auto">
+          <button className="w-full p-4 px-12 text-white lg:w-auto rounded-2xl bg-sky-900">
             Submit
           </button>
         </div>

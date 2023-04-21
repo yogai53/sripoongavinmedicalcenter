@@ -6,7 +6,7 @@ export default function Awards() {
       <h2 className="text-4xl font-bold text-sky-900">
         Award winning patient care
       </h2>
-      <div className="w-1/12 border border-red-500 border-solid border-y-4"></div>
+      <div className="hidden border border-red-500 border-solid lg:w-1/12 lg:block border-y-4"></div>
       <p className="text-sky-700">
         Lets know moreel necessitatibus dolor asperiores illum possimus sint
         voluptates incidunt molestias nostrum laudantium. Maiores porro cumque

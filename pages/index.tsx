@@ -19,15 +19,15 @@ export default function Home() {
       <Body />
       <Feature />
       <Services />
-      <div className="z-10 flex flex-col items-center mt-12">
+      <div className="z-10 flex flex-col items-center lg:mt-12">
         <Achievements />
       </div>
 
       <div className="z-0 flex flex-col gap-16 pb-24 -mt-24 pt-36 bg-sky-50">
-        <div className="mx-24 lg:px-80">
+        <div className="lg:mx-24 lg:px-80">
           <Awards />
         </div>
-        <div className="mx-24 lg:px-12">
+        <div className="mx-2 lg:mx-24 lg:px-12">
           <Departments />
         </div>
       </div>

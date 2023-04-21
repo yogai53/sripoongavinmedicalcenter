@@ -6,7 +6,6 @@ import { useState } from "react";
 
 export default function Header2() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
   return (
     <>
       <nav
@@ -44,7 +43,7 @@ export default function Header2() {
             Home
           </Link>
           <Link
-            href="/contact"
+            href="/about"
             className="text-sm font-semibold leading-6 text-gray-900"
           >
             About
@@ -60,6 +59,12 @@ export default function Header2() {
             className="text-sm font-semibold leading-6 text-gray-900"
           >
             Departments
+          </Link>
+          <Link
+            href="/facilities"
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
+            Facilities
           </Link>
           <Link
             href="/doctors/chennappan"
@@ -103,15 +108,18 @@ export default function Header2() {
             </div>
             <div className="flow-root mt-6">
               <div className="-my-6 divide-y divide-gray-500/10">
-                <div className="py-6 space-y-2 text-center">
+                <div
+                  className="py-6 space-y-2 text-center"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
                   <Link
                     href="/"
                     className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
                   >
-                    Home
+                    Homes
                   </Link>
                   <Link
-                    href="contact"
+                    href="/about"
                     className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
                   >
                     About
@@ -127,6 +135,12 @@ export default function Header2() {
                     className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
                   >
                     Departments
+                  </Link>
+                  <Link
+                    href="/facilities"
+                    className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
+                  >
+                    Facilities
                   </Link>
                   <Link
                     href="/doctors/chennappan"

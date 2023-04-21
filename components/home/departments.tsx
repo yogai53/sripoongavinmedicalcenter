@@ -1,58 +1,69 @@
 import React from "react";
 import { BeakerIcon, HeartIcon } from "@heroicons/react/24/solid";
+import {
+  Dementia,
+  Diabetes,
+  FacialPalsy,
+  GeneralMedicine,
+  Headache,
+  Hypertension,
+  Parkinson,
+  Stroke,
+  Vertigo,
+} from "@/icons";
 
 const departments = [
   {
     name: "General Medicine",
-    icon: <BeakerIcon className="w-12 h-12 text-red-600" />,
+    icon: <GeneralMedicine className="w-12 h-12 text-red-600" />,
     description:
       "Saepe nulla praesentium eaque omnis perferendis a doloremque.",
   },
   {
     name: "Blood Pressure",
-    icon: <HeartIcon className="w-12 h-12 text-red-600" />,
+    icon: <Hypertension className="w-12 h-12 text-red-600" />,
     description:
       "Saepe nulla praesentium eaque omnis perferendis a doloremque.",
   },
   {
     name: "Diabetes",
-    icon: <BeakerIcon className="w-12 h-12 text-red-600" />,
+    icon: <Diabetes className="w-12 h-12 text-red-600" />,
     description:
       "Saepe nulla praesentium eaque omnis perferendis a doloremque.",
   },
   {
     name: "Headache",
-    icon: <BeakerIcon className="w-12 h-12 text-red-600" />,
+    icon: <Headache className="w-12 h-12 text-red-600" />,
     description:
       "Saepe nulla praesentium eaque omnis perferendis a doloremque.",
   },
   {
     name: "Stroke",
-    icon: <BeakerIcon className="w-12 h-12 text-red-600" />,
+    icon: <Stroke className="w-12 h-12 text-red-600" />,
     description:
       "Saepe nulla praesentium eaque omnis perferendis a doloremque.",
   },
   {
     name: "Facial Palsy",
-    icon: <BeakerIcon className="w-12 h-12 text-red-600" />,
+    icon: <FacialPalsy className="w-12 h-12 text-red-600" />,
     description:
       "Saepe nulla praesentium eaque omnis perferendis a doloremque.",
   },
   {
     name: "Vertigo",
-    icon: <BeakerIcon className="w-12 h-12 text-red-600" />,
+    icon: <Vertigo className="w-12 h-12 text-red-600" />,
     description:
       "Saepe nulla praesentium eaque omnis perferendis a doloremque.",
   },
   {
     name: "Parkinson's Disease",
-    icon: <BeakerIcon className="w-12 h-12 text-red-600" />,
+    icon: <Parkinson className="w-12 h-12 text-red-600" />,
     description:
       "Saepe nulla praesentium eaque omnis perferendis a doloremque.",
   },
   {
     name: "Dementia",
-    icon: <BeakerIcon className="w-12 h-12 text-red-600" />,
+    icon: <Dementia className="w-12 h-12 text-red-600" />,
     description:
       "Saepe nulla praesentium eaque omnis perferendis a doloremque.",
   },

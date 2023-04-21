@@ -2,12 +2,13 @@ import { ClockIcon } from "@heroicons/react/24/outline";
 import Availability from "./availablity";
 import { bookingPhone, emergencyPhone } from "@/constants/hospital";
 import Link from "next/link";
+import { Clock, Support, Surgeon } from "@/icons";
 
 export default function Feature() {
   return (
     <div className="flex flex-col gap-4 px-4 py-4 lg:-mt-16 lg:flex-row text-sky-900 lg:px-36">
       <div className="flex flex-col gap-6 p-6 bg-white lg:w-1/3 drop-shadow-2xl rounded-xl">
-        <ClockIcon className="w-16 h-16" aria-hidden="true" />
+        <Surgeon className=" w-14 h-14 text-sky-900" />
         <p className="font-light ">24 Hours Service</p>
         <p className="text-2xl font-bold ">Online Appoinment</p>
         <p className="">
@@ -27,13 +28,13 @@ export default function Feature() {
         </Link>
       </div>
       <div className="flex flex-col gap-6 p-6 bg-white lg:w-1/3 drop-shadow-2xl rounded-xl">
-        <ClockIcon className="w-16 h-16" aria-hidden="true" />
+        <Clock className=" w-14 h-14 text-sky-900" />
         <p className="font-light ">Timing schedule</p>
         <p className="text-2xl font-bold ">Working Hours</p>
         <Availability />
       </div>
       <div className="flex flex-col gap-6 p-6 bg-white lg:w-1/3 drop-shadow-2xl rounded-xl">
-        <ClockIcon className="w-16 h-16" aria-hidden="true" />
+        <Support className=" w-14 h-14 text-sky-900" />
         <p className="font-light ">Emegency Cases</p>
         <Link href={`tel:${emergencyPhone}`}>
           <p className="text-2xl font-bold ">

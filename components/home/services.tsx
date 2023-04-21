@@ -3,7 +3,7 @@ import { ChevronRightIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 export default function Services() {
   return (
-    <div className="flex flex-col items-center justify-center gap-4 px-4 py-4 mt-20 lg:flex-row text-sky-900 lg:px-36">
+    <div className="flex flex-col items-center justify-center gap-4 px-4 py-4 lg:mt-20 lg:flex-row text-sky-900 lg:px-36">
       <div className="flex flex-col items-center justify-center w-2/3 gap-4 lg:flex-row">
         <div className="flex flex-col gap-4">
           <img
