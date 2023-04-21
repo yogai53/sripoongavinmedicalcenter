@@ -169,10 +169,10 @@ export default function Services() {
         <p>Our services</p>
         <p className="text-3xl font-bold lg:text-6xl">What We Do</p>
       </div>
-      <div className="py-12 lg:mt-12 lg:px-48">
+      <div className="px-4 py-12 lg:mt-12 lg:px-48">
         <ul
           role="list"
-          className="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8"
+          className="grid gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8"
         >
           {services.map((service) => (
             <li key={service.title} className="relative">
@@ -187,7 +187,7 @@ export default function Services() {
                   </span>
                 </button>
               </div>
-              <p className="block mt-2 text-sm font-medium text-gray-900 truncate pointer-events-none">
+              <p className="block mt-2 text-xl font-bold truncate pointer-events-none text-sky-900">
                 {service.title}
               </p>
               <p className="block text-sm font-medium text-gray-500 pointer-events-none">

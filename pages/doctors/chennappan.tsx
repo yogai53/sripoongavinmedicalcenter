@@ -18,7 +18,7 @@ export default function DoctorChennapan() {
           Neurologist
         </p>
       </div>
-      <div className="flex flex-col items-center gap-6 px-2 py-16 lg:flex-row lg:px-36">
+      <div className="flex flex-col items-center gap-6 px-6 py-16 lg:flex-row lg:px-36">
         <div className="flex flex-col gap-4 lg:w-1/3">
           <Image src={assets.DrChennappan} alt="Dr.Chennappan" />
           <div>
@@ -53,7 +53,7 @@ export default function DoctorChennapan() {
           </Link>
         </div>
       </div>
-      <div className="flex flex-col gap-4 px-2 py-2 mb-12 lg:py-16 lg:px-36 bg-sky-50">
+      <div className="flex flex-col gap-4 px-6 py-2 mb-12 lg:py-16 lg:px-36 bg-sky-50">
         <h2 className="text-3xl font-bold text-center text-sky-900 lg:text-left">
           My Educational Qualifications
         </h2>
