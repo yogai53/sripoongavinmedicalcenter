@@ -15,3 +15,4 @@ export { default as Vertigo } from "./vertigo.webp";
 export { default as Cardiology } from "./cardiology.jpeg";
 export { default as Neurology } from "./neurology.jpeg";
 export { default as DrChennappan } from "./drchennappan.jpeg";
+export { default as Logo } from "./logo.jpeg";

@@ -1,3 +1,4 @@
+import { MetaTags } from "@/components/common";
 import {
   Achievements,
   Appointment,
@@ -8,14 +9,18 @@ import {
   Services,
   Testimonial,
 } from "@/components/home";
-import Head from "next/head";
 
 export default function Home() {
   return (
     <div>
-      <Head>
-        <title>Sri Poongavin Medical Center, Krishnagiri</title>
-      </Head>
+      <MetaTags
+        title="Sri Poongavin Medical Center, Krishnagiri"
+        description="Best Neurologist and General Care"
+        keywords="Best Neurologist, Best Neurologist in Krishnagiri, General Medical Care in Krishnagiri"
+        url="https://sripoongavinmedicalcentre.com"
+        image="/logo.jpeg"
+      />
+
       <Body />
       <Feature />
       <Services />

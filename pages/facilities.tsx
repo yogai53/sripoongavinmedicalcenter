@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import * as assets from "@/assets/facilities";
+import { MetaTags } from "@/components/common";
 
 const facilities = [
   {
@@ -88,9 +89,13 @@ const facilities = [
 export default function Facilities() {
   return (
     <div>
-      <Head>
-        <title>Sri Poongavin Medical Center, Krishnagiri - Facilities</title>
-      </Head>
+      <MetaTags
+        title="Sri Poongavin Medical Center, Krishnagiri - Facilities"
+        description="Best Neurologist and General Care"
+        keywords="Best Neurologist, Best Neurologist in Krishnagiri, General Medical Care in Krishnagiri"
+        url="https://sripoongavinmedicalcentre.com"
+        image="/logo.jpeg"
+      />
       <div className="flex flex-col gap-2 items-center text-center py-12 lg:py-36 text-white bg-sky-950 bg-[url('https://demo.themefisher.com/novena/images/bg/22.jpg')] bg-blend-multiply">
         <p>Our facilities</p>
         <p className="text-3xl font-bold lg:text-6xl">What We Have</p>
