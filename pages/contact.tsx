@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Sri Poongavin Medical Center.</title>
+        <title>Sri Poongavin Medical Center, Krishnagiri - Contact Us</title>
       </Head>
       <div className="flex flex-col gap-8 items-center text-center py-12 lg:py-36 text-white bg-sky-950 bg-[url('https://demo.themefisher.com/novena/images/bg/22.jpg')] bg-blend-multiply">
         <p>Contact Us</p>

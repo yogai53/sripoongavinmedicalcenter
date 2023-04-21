@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Sri Poongavin Medical Center.</title>
+        <title>Sri Poongavin Medical Center, Krishnagiri</title>
       </Head>
       <Body />
       <Feature />
