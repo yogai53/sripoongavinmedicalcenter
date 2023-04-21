@@ -10,7 +10,7 @@ const navigation = {
   department: [
     { name: "Neurology", href: "#" },
     { name: "General Medicine", href: "#" },
-    { name: "Cardiology", href: "#" },
+    // { name: "Cardiology", href: "#" },
   ],
   support: [
     { name: "Terms & Conditions", href: "#" },

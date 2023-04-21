@@ -25,17 +25,17 @@ const departments = [
     ),
     description: "நரம்பியல்",
   },
-  {
-    title: "Cardiology",
-    image: (
-      <Image
-        className="object-cover pointer-events-none group-hover:opacity-75"
-        src={assets.Cardiology}
-        alt="Diabetes"
-      />
-    ),
-    description: "இதயவியல்",
-  },
+  // {
+  //   title: "Cardiology",
+  //   image: (
+  //     <Image
+  //       className="object-cover pointer-events-none group-hover:opacity-75"
+  //       src={assets.Cardiology}
+  //       alt="Diabetes"
+  //     />
+  //   ),
+  //   description: "இதயவியல்",
+  // },
 ];
 
 export default function Departments() {
