@@ -91,7 +91,7 @@ export default function Home() {
         referrerPolicy="no-referrer-when-downgrade"
         className="w-full h-[500px] my-16"
       ></iframe>
-      <div className="px-2 mb-12 lg:py-6 lg:px-48 h-[1100px]">
+      <div className="px-2 mb-12 lg:py-6 lg:px-48 h-[972px]">
         <ContactForm />
       </div>
     </div>

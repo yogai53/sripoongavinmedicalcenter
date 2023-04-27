@@ -8,7 +8,7 @@ export default function Appointment() {
       <div className="lg:w-1/3">
         <ContactPhone />
       </div>
-      <div className="mt-12 mb-12 lg:w-2/3 lg:mt-0 lg:mb-0  h-[1100px]">
+      <div className="mt-12 mb-12 lg:w-2/3 lg:mt-0 lg:mb-0  h-[972px]">
         <ContactForm />
       </div>
     </div>
