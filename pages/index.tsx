@@ -40,9 +40,9 @@ export default function Home() {
       <div className="px-4 lg:px-36 lg:py-24">
         <Appointment />
       </div>
-      <div className="px-4 lg:px-36 lg:py-24 bg-sky-50">
+      {/* <div className="px-4 lg:px-36 lg:py-24 bg-sky-50">
         <Testimonial />
-      </div>
+      </div> */}
     </div>
   );
 }

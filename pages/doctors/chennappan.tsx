@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import * as assets from "@/assets";
+import { Education, Experience } from "@/components/doctors/chennappan";
 
 export default function DoctorChennapan() {
   return (
@@ -30,16 +31,26 @@ export default function DoctorChennapan() {
           </div>
         </div>
         <div className="flex flex-col gap-4 lg:w-2/3 text-sky-900">
-          <h2 className="text-4xl font-bold ">Introducing myself</h2>
+          <h2 className="text-4xl font-bold ">About</h2>
           <div className="w-1/6 border border-red-500 border-solid lg:w-1/12 border-y-4"></div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam
-            tempore cumque voluptate beatae quis inventore sapiente nemo, a
-            eligendi nostrum expedita veritatis neque incidunt ipsa doloribus
-            provident ex, at ullam. Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Ipsam, perferendis officiis esse quae, nobis eius
-            explicabo quidem? Officia accusamus repudiandae ea esse non
-            reiciendis accusantium
+            Dr. C. Chennappan is a consultant Neurologist, practicing in
+            Krishnagini. He has an experience of 21 years in the medical field.
+            He has a vast experience in diagnosing and treating various
+            neurological conditions. He practices at Sri Poongavin Medical
+            center, Krishnagiri.
+          </p>
+          <p>
+            He had completed MBBS from Madras Medical College, Chennai in 2002,
+            MD - General Medicine from PGIMER Chandigarh in 2008 and DM -
+            Neurology from Madras Medical college, Chennai in 2014. He is a
+            member of Indian Medical Association, Indian Academy of Neurology,
+            Indian Epilepsy Society and Indian epilepsy assocation
+          </p>
+          <p>
+            He also got his training in NIMHANS for Neuropathology and
+            Electrophysiology in Sree Chitra Tirunal Institute for Medical
+            Sciences & Technology
           </p>
           <Link
             href={`tel:${bookingPhone}`}
@@ -56,49 +67,17 @@ export default function DoctorChennapan() {
           </Link>
         </div>
       </div>
-      <div className="flex flex-col gap-4 px-6 py-2 mb-12 lg:py-16 lg:px-36 bg-sky-50">
-        <h2 className="text-3xl font-bold text-center text-sky-900 lg:text-left">
+      <div className="flex flex-col gap-4 px-6 py-12 mb-12 lg:px-36 bg-sky-50">
+        <h2 className="text-3xl font-bold text-sky-900 ">
           My Educational Qualifications
         </h2>
-        <div className="hidden w-1/6 border border-red-500 border-solid lg:block lg:w-1/12 border-y-4"></div>
-        <div className="grid gap-4 lg:mt-12 lg:grid-cols-2">
-          <div className="flex flex-col">
-            <p className="text-xl font-bold text-gray-600">Year(2005-2007)</p>
-            <p className="text-2xl font-bold text-sky-900">
-              MBBS at Madras Medical College, Chennai
-            </p>
-            <p className="text-gray-500">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
-              doloremque harum, mollitia, soluta maxime porro veritatis fuga
-              autem impedit corrupti aperiam sint, architecto, error nesciunt
-              temporibus! Vel quod, dolor aliquam!
-            </p>
-          </div>
-          <div className="flex flex-col">
-            <p className="text-xl font-bold text-gray-600">Year(2005-2007)</p>
-            <p className="text-2xl font-bold text-sky-900">
-              MD, General Medicine, PGI - Chandigarh
-            </p>
-            <p className="text-gray-500">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
-              doloremque harum, mollitia, soluta maxime porro veritatis fuga
-              autem impedit corrupti aperiam sint, architecto, error nesciunt
-              temporibus! Vel quod, dolor aliquam!
-            </p>
-          </div>
-          <div className="flex flex-col">
-            <p className="text-xl font-bold text-gray-600">Year(2005-2007)</p>
-            <p className="text-2xl font-bold text-sky-900">
-              DM, Neuro, Madras Medical College, Chennai
-            </p>
-            <p className="text-gray-500">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
-              doloremque harum, mollitia, soluta maxime porro veritatis fuga
-              autem impedit corrupti aperiam sint, architecto, error nesciunt
-              temporibus! Vel quod, dolor aliquam!
-            </p>
-          </div>
-        </div>
+        <div className="w-1/6 border border-red-500 border-solid lg:w-1/12 border-y-4"></div>
+        <Education />
+      </div>
+      <div className="flex flex-col gap-4 px-6 py-2 mb-12 lg:py-16 lg:px-36">
+        <h2 className="text-3xl font-bold text-sky-900 ">My Experience</h2>
+        <div className="w-1/6 border border-red-500 border-solid lg:w-1/12 border-y-4"></div>
+        <Experience />
       </div>
     </div>
   );

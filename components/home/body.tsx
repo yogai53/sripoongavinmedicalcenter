@@ -11,7 +11,7 @@ export default function Body() {
           TOTAL HEALTH CARE SOLUTION
         </p>
         <h2 className="font-semibold text-7xl text-sky-900">
-          Your Most Trusted Partner
+          Your Most Trusted Healthcare
         </h2>
         <p className="font-normal text-sky-700">
           A repudiandae ipsam labore ipsa voluptatum quidem quae laudantium
