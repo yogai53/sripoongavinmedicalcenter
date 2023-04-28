@@ -36,21 +36,20 @@ export default function DoctorChennapan() {
           <p>
             Dr. C. Chennappan is a consultant Neurologist, practicing in
             Krishnagiri. He has an experience of 21 years in the medical field.
-            He has a vast experience in diagnosing and treating various
+            He has vast experience in diagnosing and treating various
             neurological conditions. He practices at Sri Poongavin Medical
-            center, Krishnagiri.
+            Centre, Krishnagiri.
           </p>
           <p>
-            He had completed MBBS from Madras Medical College, Chennai in 2002,
-            MD - General Medicine from PGIMER Chandigarh in 2008 and DM -
-            Neurology from Madras Medical college, Chennai in 2014. He is a
-            member of Indian Medical Association, Indian Academy of Neurology,
-            Indian Epilepsy Society and Indian epilepsy assocation
+            He completed his MBBS from Madras Medical College, Chennai in 2002,
+            MD - General Medicine from PGIMER Chandigarh in 2008, and DM -
+            Neurology from Madras Medical College, Chennai in 2014. He is a
+            member of the Indian Medical Association, Indian Academy of
+            Neurology, Indian Epilepsy Society, and Indian Epilepsy Association.
           </p>
           <p>
-            He also got his training in NIMHANS for Neuropathology and
-            Electrophysiology in Sree Chitra Tirunal Institute for Medical
-            Sciences & Technology
+            He also trained in NIMHANS for Neuropathology and Electrophysiology
+            at Sree Chitra Tirunal Institute for Medical Sciences & Technology.
           </p>
           <Link
             href={`tel:${bookingPhone}`}
