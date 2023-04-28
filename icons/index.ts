@@ -16,3 +16,4 @@ export { default as EmergencyCall } from "./emergency-call";
 export { default as Location } from "./location";
 export { default as HospitalLocation } from "./hospital-location";
 export { default as Email } from "./email";
+export { default as Linkedin } from "./linkedin";

@@ -84,7 +84,7 @@ export default function Home() {
         </Link>
       </div>
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3894.862030556422!2d78.21731387557628!3d12.525297787750596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bac358e55d03359%3A0x3d66419726f8b4e4!2sgovt%20hospital%20krishnagiri!5e0!3m2!1sen!2sdk!4v1681835953164!5m2!1sen!2sdk"
+        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3894.8164309840076!2d78.20214061481737!3d12.528316891147798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDMxJzQxLjkiTiA3OMKwMTInMTUuNiJF!5e0!3m2!1sen!2sdk!4v1682684332359!5m2!1sen!2sdk"
         style={{ border: 0 }}
         allowFullScreen={true}
         loading="lazy"
