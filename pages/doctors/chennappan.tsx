@@ -4,16 +4,20 @@ import Link from "next/link";
 import Image from "next/image";
 import * as assets from "@/assets";
 import { Education, Experience } from "@/components/doctors/chennappan";
+import { MetaTags } from "@/components/common";
 
 export default function DoctorChennapan() {
   return (
     <div>
-      <Head>
-        <title>
-          Sri Poongavin Medical Center. Dr Chennappan - Consultant Physician &
-          Neurologist, Krishnagiri
-        </title>
-      </Head>
+      <MetaTags
+        title="Sri Poongavin Medical Center, Krishnagiri"
+        description="Doctor Dr. C. Chennappan, MD (Gen. Med.), PGI-Chandigarh, DM (Neuro) Consultant Physician &
+        Neurologist. Best Neurologist and General Care"
+        keywords="Doctor Dr. C. Chennappan, MD (Gen. Med.), PGI-Chandigarh, DM (Neuro) Consultant Physician &
+        Neurologist. Best Neurologist, Best Neurologist in Krishnagiri, General Medical Care in Krishnagiri"
+        url="https://sripoongavinmedicalcentre.com"
+        image="/logo.jpeg"
+      />
       <div className="flex flex-col gap-2 items-center text-center py-12 lg:py-36 text-white bg-sky-950 bg-[url('https://demo.themefisher.com/novena/images/bg/22.jpg')] bg-blend-multiply">
         <p className="text-2xl">Doctor</p>
         <p className="text-3xl font-bold lg:text-6xl">C Chennappan</p>
