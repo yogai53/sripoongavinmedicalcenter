@@ -35,7 +35,7 @@ export default function DoctorChennapan() {
           <div className="w-1/6 border border-red-500 border-solid lg:w-1/12 border-y-4"></div>
           <p>
             Dr. C. Chennappan is a consultant Neurologist, practicing in
-            Krishnagini. He has an experience of 21 years in the medical field.
+            Krishnagiri. He has an experience of 21 years in the medical field.
             He has a vast experience in diagnosing and treating various
             neurological conditions. He practices at Sri Poongavin Medical
             center, Krishnagiri.
