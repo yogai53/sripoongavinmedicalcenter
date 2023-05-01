@@ -1,7 +1,7 @@
 export const hospitalName = "Shri Poongavin Medical Centre";
 export const emergencyPhone = "+916369536633";
 export const bookingPhone = "+919944455897";
-export const hospitalEmail = "chenniicare@gmail.com";
+export const hospitalEmail = "sripoongavinmedicalcentre@gmail.com";
 export const hospitalAddress = {
   line1: "1/196 - 1",
   line2: "Rayakottai Main Road",
