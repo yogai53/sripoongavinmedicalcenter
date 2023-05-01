@@ -29,7 +29,7 @@ export default function Doctors() {
           <div className="text-center">
             <p className="text-xl font-bold text-paleSky-700">Dr Chennappan</p>
             <p className="text-gray-400">
-              Consultant Physician And Neurologistcine
+              Consultant Physician And Neurologist
             </p>
           </div>
         </Link>

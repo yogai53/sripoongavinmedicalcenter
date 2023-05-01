@@ -38,7 +38,7 @@ export default function DoctorChennapan() {
               Dr C Chennappan
             </h2>
             <p className="text-paleSky-700">
-              Consultant Physician And Neurologistcine
+              Consultant Physician And Neurologist
             </p>
           </div>
         </div>
