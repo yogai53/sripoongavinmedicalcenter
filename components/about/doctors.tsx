@@ -28,7 +28,9 @@ export default function Doctors() {
           />
           <div className="text-center">
             <p className="text-xl font-bold text-paleSky-700">Dr Chennappan</p>
-            <p className="text-gray-400">Neurologist & General Medicine</p>
+            <p className="text-gray-400">
+              Consultant Physician And Neurologist
+            </p>
           </div>
         </Link>
         {/* <Link href="/doctors/chennappan" className="flex flex-col gap-2">
