@@ -3,35 +3,34 @@ export default function Services() {
     <div className="grid gap-8 lg:grid-cols-4">
       <div className="flex flex-col gap-4 ">
         <img src="https://demo.themefisher.com/novena/images/about/about-1.jpg" />
-        <p className="text-xl font-bold text-sky-900">Healthcare for Kids</p>
+        <p className="text-xl font-bold text-paleSky-700">
+          Healthcare for Kids
+        </p>
         <p className="text-gray-400">
-          Voluptate aperiam esse possimus maxime repellendus, nihil quod
-          accusantium .
+          Promoting a Brighter and Healthier Future
         </p>
       </div>
       <div className="flex flex-col gap-4 ">
         <img src="https://demo.themefisher.com/novena/images/about/about-2.jpg" />
-        <p className="text-xl font-bold text-sky-900">Medical Counselling</p>
+        <p className="text-xl font-bold text-paleSky-700">
+          Medical Counselling
+        </p>
         <p className="text-gray-400">
-          Voluptate aperiam esse possimus maxime repellendus, nihil quod
-          accusantium .
+          Expert guidance to improve your health and well-being through medical
+          counseling.
         </p>
       </div>
       <div className="flex flex-col gap-4 ">
         <img src="https://demo.themefisher.com/novena/images/about/about-3.jpg" />
-        <p className="text-xl font-bold text-sky-900">Modern Equipments</p>
+        <p className="text-xl font-bold text-paleSky-700">Modern Equipments</p>
         <p className="text-gray-400">
-          Voluptate aperiam esse possimus maxime repellendus, nihil quod
-          accusantium .
+          Our hospital is equipped with the latest medical equipment.
         </p>
       </div>
       <div className="flex flex-col gap-4 ">
         <img src="https://demo.themefisher.com/novena/images/about/about-4.jpg" />
-        <p className="text-xl font-bold text-sky-900">Qualified Doctors</p>
-        <p className="text-gray-400">
-          Voluptate aperiam esse possimus maxime repellendus, nihil quod
-          accusantium .
-        </p>
+        <p className="text-xl font-bold text-paleSky-700">Qualified Doctors</p>
+        <p className="text-gray-400">Trusted expertise for your health</p>
       </div>
     </div>
   );

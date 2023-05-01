@@ -11,7 +11,7 @@ export default function Header2() {
   return (
     <>
       <nav
-        className="flex items-center justify-between p-2 mx-auto max-w-7xl lg:px-8"
+        className="z-50 flex items-center justify-between p-2 mx-auto max-w-7xl lg:px-8"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
@@ -23,7 +23,7 @@ export default function Header2() {
               alt=""
             /> */}
             <Image src={Logo} alt={hospitalName} className="h-auto w-36" />
-            <h3 className="text-lg font-semibold text-sky-900">
+            <h3 className="text-lg font-semibold text-paleSky-700">
               {hospitalName}
             </h3>
           </Link>
@@ -41,44 +41,44 @@ export default function Header2() {
         <div className="hidden lg:flex lg:gap-x-12">
           <Link
             href="/"
-            className="text-sm font-semibold leading-6 text-gray-900"
+            className="text-sm font-semibold leading-6 text-paleSky-700"
           >
             Home
           </Link>
           <Link
             href="/about"
-            className="text-sm font-semibold leading-6 text-gray-900"
+            className="text-sm font-semibold leading-6 text-paleSky-700"
           >
             About
           </Link>
           <Link
             href="/services"
-            className="text-sm font-semibold leading-6 text-gray-900"
+            className="text-sm font-semibold leading-6 text-paleSky-700"
           >
             Services
           </Link>
           <Link
             href="/departments"
-            className="text-sm font-semibold leading-6 text-gray-900"
+            className="text-sm font-semibold leading-6 text-paleSky-700"
           >
             Departments
           </Link>
           <Link
             href="/facilities"
-            className="text-sm font-semibold leading-6 text-gray-900"
+            className="text-sm font-semibold leading-6 text-paleSky-700"
           >
             Facilities
           </Link>
           <Link
             href="/doctors/chennappan"
-            className="text-sm font-semibold leading-6 text-gray-900"
+            className="text-sm font-semibold leading-6 text-paleSky-700"
           >
             Doctors
           </Link>
 
           <Link
             href="/contact"
-            className="text-sm font-semibold leading-6 text-gray-900"
+            className="text-sm font-semibold leading-6 text-paleSky-700"
           >
             Contact
           </Link>
@@ -91,12 +91,12 @@ export default function Header2() {
         onClose={setMobileMenuOpen}
       >
         <div className="fixed inset-0 z-10" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 flex flex-col justify-between w-full overflow-y-auto bg-white sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 flex flex-col justify-between w-full overflow-y-auto bg-white sm:max-w-sm sm:ring-1 sm:ring-gray-700/10">
           <div className="p-6">
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">{hospitalName}</span>
-                <h3 className="text-lg font-semibold text-sky-900">
+                <h3 className="text-lg font-semibold text-paleSky-700">
                   {hospitalName}
                 </h3>
               </a>
@@ -117,43 +117,43 @@ export default function Header2() {
                 >
                   <Link
                     href="/"
-                    className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
+                    className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 rounded-lg text-paleSky-700 hover:bg-gray-50"
                   >
                     Home
                   </Link>
                   <Link
                     href="/about"
-                    className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
+                    className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 rounded-lg text-paleSky-700 hover:bg-gray-50"
                   >
                     About
                   </Link>
                   <Link
                     href="services"
-                    className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
+                    className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 rounded-lg text-paleSky-700 hover:bg-gray-50"
                   >
                     Services
                   </Link>
                   <Link
                     href="/departments"
-                    className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
+                    className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 rounded-lg text-paleSky-700 hover:bg-gray-50"
                   >
                     Departments
                   </Link>
                   <Link
                     href="/facilities"
-                    className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
+                    className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 rounded-lg text-paleSky-700 hover:bg-gray-50"
                   >
                     Facilities
                   </Link>
                   <Link
                     href="/doctors/chennappan"
-                    className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
+                    className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 rounded-lg text-paleSky-700 hover:bg-gray-50"
                   >
                     Doctors
                   </Link>
                   <Link
                     href="/contact"
-                    className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50"
+                    className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 rounded-lg text-paleSky-700 hover:bg-gray-50"
                   >
                     Contact
                   </Link>

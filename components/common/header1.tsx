@@ -1,5 +1,5 @@
 import {
-  emergencyPhone,
+  bookingPhone,
   hospitalEmail,
   hospitalFullAddress,
   hospitalName,
@@ -15,7 +15,7 @@ import Link from "next/link";
 export default function Header1() {
   return (
     <nav
-      className="flex justify-between p-4 text-white lg:py-4 lg:px-24 bg-sky-900"
+      className="flex justify-between p-4 text-white bg-paleSky-600 lg:py-4 lg:px-24"
       aria-label="Global"
     >
       <div className="flex flex-col w-full lg:px-8 lg:flex-row gap-y-2 lg:gap-x-12 lg:justify-between">
@@ -37,15 +37,15 @@ export default function Header1() {
           </Link>
         </div>
 
-        <Link href={`tel:${emergencyPhone}`}>
+        <Link href={`tel:${bookingPhone}`}>
           <div className="flex gap-2 text-sm font-semibold leading-6">
             <PhoneIcon className="w-6 h-6" aria-hidden="true" />
             Call Now :
-            {emergencyPhone.substring(0, 3) +
+            {bookingPhone.substring(0, 3) +
               " " +
-              emergencyPhone.substring(3, 7) +
+              bookingPhone.substring(3, 7) +
               " " +
-              emergencyPhone.substring(7, 13)}
+              bookingPhone.substring(7, 13)}
           </div>
         </Link>
       </div>

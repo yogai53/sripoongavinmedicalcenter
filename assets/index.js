@@ -16,3 +16,4 @@ export { default as Cardiology } from "./cardiology.jpeg";
 export { default as Neurology } from "./neurology.jpeg";
 export { default as DrChennappan } from "./drchennappan.jpeg";
 export { default as Logo } from "./logo.jpeg";
+export { default as PhoneFrame } from "./phone-frame.svg";

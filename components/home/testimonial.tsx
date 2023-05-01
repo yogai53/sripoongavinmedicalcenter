@@ -25,11 +25,11 @@ export default function Testimonial() {
   return (
     <div>
       <div className="flex flex-col items-center gap-8 p-12 text-center lg:px-64">
-        <h1 className="text-5xl font-bold text-sky-900">
+        <h1 className="text-5xl font-bold text-paleSky-700">
           We served over 5000+ Patients
         </h1>
-        <div className="w-1/12 border border-red-500 border-solid border-y-4"></div>
-        <p className="text-sky-900">
+        <div className="w-1/12 border border-red-800 border-solid border-y-4"></div>
+        <p className="text-paleSky-700">
           Lets know moreel necessitatibus dolor asperiores illum possimus sint
           voluptates incidunt molestias nostrum laudantium. Maiores porro cumque
           quaerat.
@@ -47,11 +47,11 @@ export default function Testimonial() {
                 className="w-24 h-24 border-4 border-gray-200 rounded-full borde-solid"
               />
               <div className="flex flex-col gap-2">
-                <h3 className="text-xl text-sky-900">Amazing Service</h3>
-                <span className="text-sky-900">John Partho</span>
+                <h3 className="text-xl text-paleSky-700">Amazing Service</h3>
+                <span className="text-paleSky-700">John Partho</span>
               </div>
             </div>
-            <p className="text-sky-900">
+            <p className="text-paleSky-700">
               They provide great service facilty consectetur adipisicing elit.
               Itaque rem, praesentium, iure, ipsum magnam deleniti a vel eos
               adipisci suscipit fugit placeat.

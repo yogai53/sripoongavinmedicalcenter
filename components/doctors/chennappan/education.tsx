@@ -10,7 +10,7 @@ export default function Education() {
           <Image src={MMC} alt="Appollo" className="w-24" />
           <div className="flex flex-col">
             <p className="text-xl font-bold text-gray-600">MBBS - 2002</p>
-            <p className="text-xl font-semibold text-sky-900">
+            <p className="text-xl font-semibold text-paleSky-700">
               Madras Medical College, Chennai
             </p>
             {/* <p className="text-gray-500">
@@ -26,7 +26,7 @@ export default function Education() {
           <Image src={PGIMR} alt="Appollo" className="w-24" />
           <div className="flex flex-col">
             <p className="text-xl font-bold text-gray-600">MD - 2008</p>
-            <p className="text-xl font-semibold text-sky-900">
+            <p className="text-xl font-semibold text-paleSky-700">
               General Medicine, PGI - Chandigarh
             </p>
             {/* <p className="text-gray-500">
@@ -42,7 +42,7 @@ export default function Education() {
           <Image src={MMC} alt="Appollo" className="w-24" />
           <div className="flex flex-col">
             <p className="text-xl font-bold text-gray-600">DM - 2014</p>
-            <p className="text-xl font-semibold text-sky-900">
+            <p className="text-xl font-semibold text-paleSky-700">
               Neuro, Madras Medical College, Chennai
             </p>
             {/* <p className="text-gray-500">

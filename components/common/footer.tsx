@@ -79,7 +79,7 @@ const navigation = {
 
 export default function Footer() {
   return (
-    <footer className=" bg-sky-900" aria-labelledby="footer-heading">
+    <footer className=" bg-paleSky-900" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
@@ -90,7 +90,7 @@ export default function Footer() {
               {/* <Image src={Logo} alt="Logo" className="w-24 rounded-full" /> */}
               <PlusCircleIcon className="text-white w-36 h-36" />
               <h2 className="text-2xl font-bold text-white">
-                Sri Poongavin Medical Centre
+                Shri Poongavin Medical Centre
               </h2>
             </div>
 

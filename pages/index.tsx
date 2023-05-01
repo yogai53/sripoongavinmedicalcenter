@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div>
       <MetaTags
-        title="Sri Poongavin Medical Center, Krishnagiri"
+        title="Shri Poongavin Medical Center, Krishnagiri"
         description="Best Neurologist and General Care"
         keywords="Best Neurologist, Best Neurologist in Krishnagiri, General Medical Care in Krishnagiri"
         url="https://sripoongavinmedicalcentre.com"
@@ -24,11 +24,11 @@ export default function Home() {
       <Body />
       <Feature />
       <Services />
-      <div className="z-10 flex flex-col items-center lg:mt-12">
+      {/* <div className="z-10 flex flex-col items-center lg:mt-12">
         <Achievements />
-      </div>
+      </div> */}
 
-      <div className="z-0 flex flex-col gap-16 pb-24 -mt-24 pt-36 bg-sky-50">
+      <div className="z-0 flex flex-col gap-6 pb-24 -mt-24 pt-36 bg-paleSky-50">
         <div className="lg:mx-24 lg:px-80">
           <Awards />
         </div>
@@ -40,7 +40,7 @@ export default function Home() {
       <div className="px-4 lg:px-36 lg:py-24">
         <Appointment />
       </div>
-      {/* <div className="px-4 lg:px-36 lg:py-24 bg-sky-50">
+      {/* <div className="px-4 lg:px-36 lg:py-24 bg-paleSky-50">
         <Testimonial />
       </div> */}
     </div>

@@ -6,18 +6,19 @@ import { Clock, Support, Surgeon } from "@/icons";
 
 export default function Feature() {
   return (
-    <div className="flex flex-col gap-4 px-4 py-4 lg:-mt-16 lg:flex-row text-sky-900 lg:px-36">
+    <div className="flex flex-col gap-4 px-4 py-4 lg:-mt-16 lg:flex-row text-paleSky-700 lg:px-36">
       <div className="flex flex-col gap-6 p-6 bg-white lg:w-1/3 drop-shadow-2xl rounded-xl">
-        <Surgeon className=" w-14 h-14 text-sky-900" />
+        <Surgeon className=" w-14 h-14 text-paleSky-700" />
         <p className="font-light ">24 Hours Service</p>
         <p className="text-2xl font-bold ">Online Appoinment</p>
         <p className="">
-          Get All time support for emergency. We have introduced the principle
-          of family medicine.
+          Booking your appointment by phone is quick and easy, and our staff can
+          answer any questions you may have about the appointment process, our
+          healthcare providers, or any other concerns you may have.
         </p>
         <Link
           href={`tel:${bookingPhone}`}
-          className="px-6 py-3 mt-4 text-xl text-left text-white rounded-full bg-sky-900 lg:w-fit"
+          className="px-6 py-3 mt-4 text-xl text-left text-white rounded-full bg-paleSky-500 lg:w-fit"
         >
           Call:{" "}
           {bookingPhone.substring(0, 3) +
@@ -28,16 +29,16 @@ export default function Feature() {
         </Link>
       </div>
       <div className="flex flex-col gap-6 p-6 bg-white lg:w-1/3 drop-shadow-2xl rounded-xl">
-        <Clock className=" w-14 h-14 text-sky-900" />
+        <Clock className=" w-14 h-14 text-paleSky-700" />
         <p className="font-light ">Timing schedule</p>
         <p className="text-2xl font-bold ">Working Hours</p>
         <Availability />
       </div>
       <div className="flex flex-col gap-6 p-6 bg-white lg:w-1/3 drop-shadow-2xl rounded-xl">
-        <Support className=" w-14 h-14 text-sky-900" />
+        <Support className=" w-14 h-14 text-paleSky-700" />
         <p className="font-light ">Emegency Cases</p>
         <Link href={`tel:${emergencyPhone}`}>
-          <p className="text-2xl font-bold ">
+          <p className="text-2xl font-bold text-red-800">
             {emergencyPhone.substring(0, 3) +
               " " +
               emergencyPhone.substring(3, 7) +
@@ -46,8 +47,9 @@ export default function Feature() {
           </p>
         </Link>
         <p className="">
-          Get All time support for emergency. We have introduced the principle
-          of family medicine. Get Conneted with us for any urgency.
+          In case of a medical emergency, it is important to seek medical
+          attention as soon as possible. At our hospital, we have a dedicated
+          emergency line that you can call at any time of the day or night.
         </p>
       </div>
     </div>

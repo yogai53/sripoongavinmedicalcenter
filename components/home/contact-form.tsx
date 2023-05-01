@@ -6,9 +6,9 @@ export default function ContactForm() {
     >
       Loading…
     </iframe>
-    // <div className="flex flex-col gap-4 lg:px-36 text-sky-900">
-    //   <h1 className="text-5xl font-bold text-sky-900">Contact us</h1>
-    //   <div className="w-1/6 border border-red-500 border-solid lg:w-1/12 border-y-4"></div>
+    // <div className="flex flex-col gap-4 lg:px-36 text-paleSky-700">
+    //   <h1 className="text-5xl font-bold text-paleSky-700">Contact us</h1>
+    //   <div className="w-1/6 border border-red-800 border-solid lg:w-1/12 border-y-4"></div>
     //   <p className="">
     //     Laboriosam exercitationem molestias beatae eos pariatur, similique,
     //     excepturi mollitia sit perferendis maiores ratione aliquam?
@@ -26,7 +26,7 @@ export default function ContactForm() {
     //           type="name"
     //           name="name"
     //           id="name"
-    //           className="block w-full p-3 border-0 rounded-md shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:sky-900 sm:text-sm sm:leading-6"
+    //           className="block w-full p-3 border-0 rounded-md shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:paleSky-700 sm:text-sm sm:leading-6"
     //           placeholder="Your Name"
     //         />
     //       </div>
@@ -43,7 +43,7 @@ export default function ContactForm() {
     //           type="email"
     //           name="email"
     //           id="email"
-    //           className="block w-full p-3 border-0 rounded-md shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:sky-900 sm:text-sm sm:leading-6"
+    //           className="block w-full p-3 border-0 rounded-md shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:paleSky-700 sm:text-sm sm:leading-6"
     //           placeholder="you@example.com"
     //         />
     //       </div>
@@ -60,7 +60,7 @@ export default function ContactForm() {
     //           type="phone"
     //           name="phone"
     //           id="phone"
-    //           className="block w-full p-3 border-0 rounded-md shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:sky-900 sm:text-sm sm:leading-6"
+    //           className="block w-full p-3 border-0 rounded-md shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:paleSky-700 sm:text-sm sm:leading-6"
     //           placeholder="9879879879"
     //         />
     //       </div>
@@ -76,14 +76,14 @@ export default function ContactForm() {
     //         <textarea
     //           name="message"
     //           id="message"
-    //           className="block w-full p-3 border-0 rounded-md shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:sky-900 sm:text-sm sm:leading-6"
+    //           className="block w-full p-3 border-0 rounded-md shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:paleSky-700 sm:text-sm sm:leading-6"
     //           placeholder="Type your message here"
     //           rows={5}
     //         />
     //       </div>
     //     </div>
     //     <div className="w-full mt-4 lg:float-right lg:w-auto">
-    //       <button className="w-full p-4 px-12 text-white lg:w-auto rounded-2xl bg-sky-900">
+    //       <button className="w-full p-4 px-12 text-white lg:w-auto rounded-2xl bg-paleSky-500">
     //         Submit
     //       </button>
     //     </div>

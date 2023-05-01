@@ -16,13 +16,13 @@ export default function Home() {
   return (
     <div>
       <MetaTags
-        title="Sri Poongavin Medical Center, Krishnagiri - Contact Us"
+        title="Shri Poongavin Medical Center, Krishnagiri - Contact Us"
         description="Best Neurologist and General Care"
         keywords="Best Neurologist, Best Neurologist in Krishnagiri, General Medical Care in Krishnagiri"
         url="https://sripoongavinmedicalcentre.com"
         image="/logo.jpeg"
       />
-      <div className="flex flex-col gap-8 items-center text-center py-12 lg:py-36 text-white bg-sky-950 bg-[url('https://demo.themefisher.com/novena/images/bg/22.jpg')] bg-blend-multiply">
+      <div className="flex flex-col gap-8 items-center text-center py-12 lg:py-36 text-white bg-paleSky-500 bg-[url('https://demo.themefisher.com/novena/images/bg/22.jpg')] bg-blend-multiply">
         <p>Contact Us</p>
         <p className="text-6xl font-bold">Get In Touch</p>
       </div>
@@ -31,12 +31,12 @@ export default function Home() {
           href={`tel:${emergencyPhone}`}
           className="flex flex-col items-center gap-4 p-6 border-4 border-gray-200 border-solid lg:w-1/3"
         >
-          <EmergencyCall className="w-12 h-12 text-red-500" />
-          <p className="text-2xl font-bold text-center text-sky-900">
+          <EmergencyCall className="w-12 h-12 text-red-800" />
+          <p className="text-2xl font-bold text-center text-paleSky-700">
             Emergency
           </p>
 
-          <p className="text-sky-900">
+          <p className="text-paleSky-700">
             {emergencyPhone.substring(0, 3) +
               " " +
               emergencyPhone.substring(3, 7) +
@@ -48,12 +48,12 @@ export default function Home() {
           href={`tel:${bookingPhone}`}
           className="flex flex-col items-center gap-4 p-6 border-4 border-gray-200 border-solid lg:w-1/3"
         >
-          <AppointmentCall className="w-12 h-12 text-red-500" />
-          <p className="text-2xl font-bold text-center text-sky-900">
+          <AppointmentCall className="w-12 h-12 text-red-800" />
+          <p className="text-2xl font-bold text-center text-paleSky-700">
             Appointment
           </p>
 
-          <p className="text-sky-900">
+          <p className="text-paleSky-700">
             {bookingPhone.substring(0, 3) +
               " " +
               bookingPhone.substring(3, 7) +
@@ -65,22 +65,22 @@ export default function Home() {
           href={`mailto:${hospitalEmail}Enquiry to ${hospitalName}`}
           className="flex flex-col items-center gap-4 p-6 border-4 border-gray-200 border-solid lg:w-1/3"
         >
-          <Email className="w-12 h-12 text-red-500" />
-          <p className="text-2xl font-bold text-center text-sky-900">
+          <Email className="w-12 h-12 text-red-800" />
+          <p className="text-2xl font-bold text-center text-paleSky-700">
             Email Us
           </p>
-          <p className="text-sky-900">{hospitalEmail}</p>
+          <p className="text-paleSky-700">{hospitalEmail}</p>
         </Link>
         <Link
           href={hospitalLocation}
           target="_blank"
           className="flex flex-col items-center gap-4 p-6 border-4 border-gray-200 border-solid lg:w-1/3"
         >
-          <Location className="w-12 h-12 text-red-500" />
-          <p className="text-2xl font-bold text-center text-sky-900">
+          <Location className="w-12 h-12 text-red-800" />
+          <p className="text-2xl font-bold text-center text-paleSky-700">
             Location
           </p>
-          <p className="text-center text-sky-900">{hospitalFullAddress}</p>
+          <p className="text-center text-paleSky-700">{hospitalFullAddress}</p>
         </Link>
       </div>
       <iframe

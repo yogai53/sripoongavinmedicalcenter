@@ -10,11 +10,11 @@ export default function Experience() {
       <div>
         <ol className="relative border-l border-gray-200 dark:border-gray-700">
           <li className="mb-10 ml-4">
-            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-700 dark:bg-gray-700"></div>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               2014
             </time>
-            <h3 className="text-lg font-semibold text-sky-900 dark:text-white">
+            <h3 className="text-lg font-semibold text-paleSky-700 dark:text-white">
               Consultant Neurologist (2014 - 2016)
             </h3>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
@@ -22,7 +22,7 @@ export default function Experience() {
             </p>
             {/* <a
         href="#"
-        className="inline-flex items-center px-4 py-2 text-sm font-medium bg-white border border-gray-200 rounded-lg text-sky-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+        className="inline-flex items-center px-4 py-2 text-sm font-medium bg-white border border-gray-200 rounded-lg text-paleSky-700 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
       >
         Learn more{" "}
         <svg
@@ -40,11 +40,11 @@ export default function Experience() {
       </a> */}
           </li>
           <li className="mb-10 ml-4">
-            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-700 dark:bg-gray-700"></div>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               2016
             </time>
-            <h3 className="text-lg font-semibold text-sky-900 dark:text-white">
+            <h3 className="text-lg font-semibold text-paleSky-700 dark:text-white">
               Visiting Consultant Neurologist (2016 - 2017)
             </h3>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
@@ -52,12 +52,12 @@ export default function Experience() {
             </p>
           </li>
           <li className="mb-10 ml-4">
-            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-700 dark:bg-gray-700"></div>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               2017
             </time>
             <div>
-              <h3 className="text-lg font-semibold text-sky-900 dark:text-white">
+              <h3 className="text-lg font-semibold text-paleSky-700 dark:text-white">
                 Assistant & Associate Professor (2017 - 2023)
               </h3>
               <p className="text-base font-normal text-gray-500 dark:text-gray-400">
@@ -66,7 +66,7 @@ export default function Experience() {
             </div>
 
             <div className="mt-5">
-              <h3 className="text-lg font-semibold text-sky-900 dark:text-white">
+              <h3 className="text-lg font-semibold text-paleSky-700 dark:text-white">
                 Visiting Consultant Neurologist (2017 - 2019)
               </h3>
               <p className="text-base font-normal text-gray-500 dark:text-gray-400">
@@ -75,11 +75,11 @@ export default function Experience() {
             </div>
           </li>
           <li className="mb-10 ml-4">
-            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-700 dark:bg-gray-700"></div>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               2020
             </time>
-            <h3 className="text-lg font-semibold text-sky-900 dark:text-white">
+            <h3 className="text-lg font-semibold text-paleSky-700 dark:text-white">
               Specialist Neurologist (6 months)
             </h3>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
@@ -87,11 +87,11 @@ export default function Experience() {
             </p>
           </li>
           <li className="mb-10 ml-4">
-            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-700 dark:bg-gray-700"></div>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               2023
             </time>
-            <h3 className="text-lg font-semibold text-sky-900 dark:text-white">
+            <h3 className="text-lg font-semibold text-paleSky-700 dark:text-white">
               Consultant Neurologist and General Practitioner
             </h3>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
