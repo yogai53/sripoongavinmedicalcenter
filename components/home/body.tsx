@@ -10,7 +10,7 @@ export default function Body() {
   return (
     <div className="px-4 py-4 lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20 lg:py-12 lg:px-36">
       <div className="relative z-10 max-w-2xl mx-auto lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
-        <div className="flex flex-col mt-12 gap-y-5">
+        <div className="flex flex-col mt-4 lg:mt-12 gap-y-5">
           <div className="hidden w-1/6 border border-red-800 border-solid lg:block lg:w-1/12 border-y-4"></div>
           <p className="text-lg font-bold lg:font-light text-paleSky-700">
             TOTAL HEALTH CARE SOLUTION
@@ -35,7 +35,7 @@ export default function Body() {
           </Link>
         </div>
       </div>
-      <div className="relative mt-10 sm:mt-20 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">
+      <div className="relative hidden mt-10 lg:block sm:mt-20 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">
         <BackgroundIllustration className=" absolute left-1/2 top-4 h-[900px] w-[900px] -translate-x-1/3 stroke-gray-300/70 [mask-image:linear-gradient(to_bottom,white_20%,transparent_75%)] sm:top-16 sm:-translate-x-1/2 lg:-top-16 lg:ml-12 xl:-top-14 xl:ml-0" />
         <div className="flex -mx-4 h-[50px] px-9 [mask-image:linear-gradient(to_bottom,white_60%,transparent)] sm:mx-0 lg:absolute lg:-inset-x-10 lg:-bottom-20 lg:-top-[100px] lg:h-auto lg:px-10 lg:pt-10 xl:-bottom-32 lg:mx-24">
           <Image src={Logo} alt="Logo" className="object-none rounded-full" />

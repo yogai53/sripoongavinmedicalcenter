@@ -17,12 +17,12 @@ export default function Header2() {
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5 flex items-center">
             <span className="sr-only">{hospitalName}</span>
-            {/* <img
-              className="w-auto h-8"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-              alt=""
-            /> */}
-            <Image src={Logo} alt={hospitalName} className="h-auto w-36" />
+
+            <Image
+              src={Logo}
+              alt={hospitalName}
+              className="w-24 h-auto lg:w-36"
+            />
             <h3 className="text-lg font-semibold text-paleSky-700">
               {hospitalName}
             </h3>
