@@ -18,7 +18,7 @@ export default function Availability() {
             <li key={timing.name} className="py-4">
               <div className="flex items-center space-x-4">
                 <div className="flex-1 min-w-0">
-                  <p className="text-sm font-medium text-gray-900 truncate">
+                  <p className="text-sm font-medium text-paleSky-700 truncate">
                     {timing.name}
                   </p>
                 </div>
