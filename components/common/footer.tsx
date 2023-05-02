@@ -161,7 +161,7 @@ export default function Footer() {
                     </div>
                     <Link
                       href={`mailto:${hospitalEmail}Enquiry to ${hospitalName}`}
-                      className="flex text-xl font-bold"
+                      className="flex font-bold lg:text-xl"
                     >
                       {hospitalEmail}
                     </Link>
