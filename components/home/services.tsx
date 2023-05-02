@@ -6,7 +6,7 @@ import { Entrance, Lab, Reception } from "@/assets/hospital";
 export default function Services() {
   return (
     <div className="flex flex-col items-center justify-center gap-4 px-4 py-4 lg:mt-20 lg:flex-row text-paleSky-700 lg:px-36">
-      <div className="flex flex-col items-center justify-center w-2/3 gap-4 lg:flex-row">
+      <div className="flex flex-col items-start w-2/3 gap-4 lg:flex-row">
         <div className="flex flex-col gap-4">
           <div className="relative max-w-xs overflow-hidden bg-no-repeat bg-cover">
             <Image
@@ -37,8 +37,11 @@ export default function Services() {
       <div className="flex flex-col gap-4 p-6 lg:w-1/3">
         <h2 className="text-5xl font-bold">Personal care & healthy living</h2>
         <p>
-          We provide best leading medicle service Nulla perferendis veniam
-          deleniti ipsum officia dolores repellat laudantium obcaecati neque.
+          We recognize the importance of communication and collaboration with
+          patients and their families in the delivery of exceptional care. We
+          are committed to working closely with our patients, their families,
+          and the community to ensure that all patients receive the highest
+          quality of care.
         </p>
         <Link
           href="/services"
