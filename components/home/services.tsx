@@ -2,34 +2,42 @@ import React from "react";
 import { ChevronRightIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import Image from "next/image";
-import { Entrance, Lab, Reception } from "@/assets/hospital";
+import { Entrance, Lab, Reception, ReceptionTable } from "@/assets/hospital";
 export default function Services() {
   return (
-    <div className="flex flex-col items-center justify-center gap-4 px-4 py-4 lg:mt-20 lg:flex-row text-paleSky-700 lg:px-36">
-      <div className="flex flex-col items-start w-2/3 gap-4 lg:flex-row">
-        <div className="flex flex-col gap-4">
-          <div className="relative max-w-xs overflow-hidden bg-no-repeat bg-cover">
+    <div className="flex flex-col justify-around gap-4 py-4 lg:mt-20 lg:flex-row text-paleSky-700 lg:px-36">
+      <div className="flex flex-col items-center justify-center gap-8 lg:flex-row">
+        <div className="flex flex-col items-center justify-center gap-8">
+          <div className="relative max-w-xs overflow-hidden bg-no-repeat bg-cover rounded-2xl">
             <Image
               src={Entrance}
               alt="Entrance"
-              className="max-w-xs transition duration-300 ease-in-out rounded-xl hover:scale-105"
+              className="max-w-xs transition duration-300 ease-in-out hover:scale-105"
             />
           </div>
-
-          <div className="relative max-w-xs overflow-hidden bg-no-repeat bg-cover">
+          <div className="relative max-w-xs overflow-hidden bg-no-repeat bg-cover rounded-2xl">
             <Image
-              src={Reception}
-              alt="Reception"
-              className="max-w-xs transition duration-300 ease-in-out rounded-xl hover:scale-105"
+              src={Lab}
+              alt="Entrance"
+              className="max-w-xs transition duration-300 ease-in-out hover:scale-105"
             />
           </div>
         </div>
-        <div>
-          <div className="relative max-w-xs overflow-hidden bg-no-repeat bg-cover">
+
+        <div className="flex flex-col items-center justify-center gap-8">
+          <div className="relative max-w-xs overflow-hidden bg-no-repeat bg-cover rounded-2xl">
             <Image
-              src={Lab}
-              alt="Lab"
-              className="max-w-xs transition duration-300 ease-in-out rounded-xl hover:scale-105"
+              src={ReceptionTable}
+              alt="Entrance"
+              className="max-w-xs transition duration-300 ease-in-out hover:scale-105"
+            />
+          </div>
+
+          <div className="relative max-w-xs overflow-hidden bg-no-repeat bg-cover rounded-2xl">
+            <Image
+              src={Reception}
+              alt="Entrance"
+              className="max-w-xs transition duration-300 ease-in-out hover:scale-105"
             />
           </div>
         </div>
