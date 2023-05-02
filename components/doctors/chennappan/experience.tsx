@@ -110,7 +110,7 @@ export default function Experience() {
           </div>
           <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-12">
             <div className="w-48 overflow-hidden rounded-lg lg:w-72 ">
-              <Image src={Emirates} alt="Emirates" />
+              {/* <Image src={Emirates} alt="Emirates" /> */}
             </div>
             <div className="w-48 overflow-hidden rounded-lg lg:w-72 ">
               <Image src={Pes} alt="Pes" />
