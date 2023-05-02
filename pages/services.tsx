@@ -11,7 +11,7 @@ const services = [
       <Image
         className="object-cover pointer-events-none group-hover:opacity-75"
         src={assets.GeneralMedicine}
-        alt="Diabetes"
+        alt="GeneralMedicine"
       />
     ),
   },
@@ -22,7 +22,7 @@ const services = [
       <Image
         className="object-cover pointer-events-none group-hover:opacity-75"
         src={assets.BloodPressure}
-        alt="Diabetes"
+        alt="BloodPressure"
       />
     ),
   },
@@ -44,7 +44,7 @@ const services = [
       <Image
         className="object-cover pointer-events-none group-hover:opacity-75"
         src={assets.Headache}
-        alt="Diabetes"
+        alt="Headache"
       />
     ),
   },
@@ -55,7 +55,7 @@ const services = [
       <Image
         className="object-cover pointer-events-none group-hover:opacity-75"
         src={assets.Stroke}
-        alt="Diabetes"
+        alt="Stroke"
       />
     ),
   },
@@ -66,7 +66,7 @@ const services = [
       <Image
         className="object-cover pointer-events-none group-hover:opacity-75"
         src={assets.FacialPalsy}
-        alt="Diabetes"
+        alt="FacialPalsy"
       />
     ),
   },
@@ -77,7 +77,7 @@ const services = [
       <Image
         className="object-cover pointer-events-none group-hover:opacity-75"
         src={assets.Vertigo}
-        alt="Diabetes"
+        alt="Vertigo"
       />
     ),
   },
@@ -88,7 +88,7 @@ const services = [
       <Image
         className="object-cover pointer-events-none group-hover:opacity-75"
         src={assets.NeckPain}
-        alt="Diabetes"
+        alt="NeckPain"
       />
     ),
   },
@@ -99,7 +99,7 @@ const services = [
       <Image
         className="object-cover pointer-events-none group-hover:opacity-75"
         src={assets.Parkinson}
-        alt="Diabetes"
+        alt="Parkinson"
       />
     ),
   },
@@ -109,8 +109,8 @@ const services = [
     image: (
       <Image
         className="object-cover pointer-events-none group-hover:opacity-75"
-        src={assets.Diabetes}
-        alt="Diabetes"
+        src={assets.Numbness}
+        alt="Numbness"
       />
     ),
   },
@@ -120,8 +120,8 @@ const services = [
     image: (
       <Image
         className="object-cover pointer-events-none group-hover:opacity-75"
-        src={assets.Numbness}
-        alt="Diabetes"
+        src={assets.NeuralPain}
+        alt="Numbness"
       />
     ),
   },
@@ -132,7 +132,7 @@ const services = [
       <Image
         className="object-cover pointer-events-none group-hover:opacity-75"
         src={assets.Dementia}
-        alt="Diabetes"
+        alt="Dementia"
       />
     ),
   },
@@ -143,7 +143,7 @@ const services = [
       <Image
         className="object-cover pointer-events-none group-hover:opacity-75"
         src={assets.Tremor}
-        alt="Diabetes"
+        alt="Tremor"
       />
     ),
   },
@@ -154,7 +154,7 @@ const services = [
       <Image
         className="object-cover pointer-events-none group-hover:opacity-75"
         src={assets.Insomnia}
-        alt="Diabetes"
+        alt="Insomnia"
       />
     ),
   },
