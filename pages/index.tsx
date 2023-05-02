@@ -22,13 +22,16 @@ export default function Home() {
       />
 
       <Body />
-      <Feature />
+      <div className="bg-paleSky-20">
+        <Feature />
+      </div>
+
       <Services />
       {/* <div className="z-10 flex flex-col items-center lg:mt-12">
         <Achievements />
       </div> */}
 
-      <div className="z-0 flex flex-col gap-6 pb-24 -mt-24 pt-36 bg-paleSky-50">
+      <div className="z-0 flex flex-col gap-6 pt-24 pb-24 bg-paleSky-20">
         <div className="lg:mx-24 lg:px-80">
           <Awards />
         </div>

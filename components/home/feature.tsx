@@ -6,7 +6,7 @@ import { Clock, Support, Surgeon } from "@/icons";
 
 export default function Feature() {
   return (
-    <div className="flex flex-col gap-4 px-4 py-4 lg:-mt-16 lg:flex-row text-paleSky-700 lg:px-36">
+    <div className="flex flex-col gap-4 px-4 py-12 lg:-mt-16 lg:flex-row text-paleSky-700 lg:px-36">
       <div className="flex flex-col items-center gap-6 p-6 bg-white lg:items-start lg:w-1/3 drop-shadow-2xl rounded-xl">
         <Surgeon className=" w-14 h-14 text-paleSky-700" />
         <p className="font-light ">24 Hours Service</p>
@@ -18,7 +18,7 @@ export default function Feature() {
         </p>
         <Link
           href={`tel:${bookingPhone}`}
-          className="px-6 py-3 mt-4 text-xl text-left text-white rounded-full bg-paleSky-500 lg:w-fit"
+          className="px-6 py-3 mt-4 text-xl text-left text-white rounded-full bg-paleSky-500 hover:bg-paleSky-700 active:bg-paleSky-900 lg:w-fit"
         >
           Call:{" "}
           {bookingPhone.substring(0, 3) +

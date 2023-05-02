@@ -24,7 +24,7 @@ export default function Body() {
           </p>
           <Link
             href={`tel:${bookingPhone}`}
-            className="px-12 py-4 mt-4 text-xl text-center text-white rounded-full bg-paleSky-500 lg:text-left lg:w-fit"
+            className="px-12 py-4 mt-4 text-xl text-center text-white rounded-full bg-paleSky-500 hover:bg-paleSky-700 active:bg-paleSky-900 lg:text-left lg:w-fit"
           >
             Book Appointment:{" "}
             {bookingPhone.substring(0, 3) +
