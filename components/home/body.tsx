@@ -15,7 +15,7 @@ export default function Body() {
           <p className="text-lg font-bold lg:font-light text-paleSky-700">
             TOTAL HEALTH CARE SOLUTION
           </p>
-          <h2 className="font-semibold text-7xl text-paleSky-700">
+          <h2 className="text-5xl font-semibold lg:text-7xl text-paleSky-700">
             Your Most Trusted Healthcare
           </h2>
           <p className="font-normal text-paleSky-700">
