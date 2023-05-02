@@ -65,7 +65,7 @@ export default function DoctorChennapan() {
           </p>
           <Link
             href={`tel:${bookingPhone}`}
-            className="p-3 px-6 mt-4 text-xl text-center text-white rounded-full bg-paleSky-500 lg:text-left lg:w-fit"
+            className="p-3 px-6 mt-4 text-xl text-center text-white rounded-full bg-paleSky-500 hover:bg-paleSky-700 active:bg-paleSky-900 lg:text-left lg:w-fit"
           >
             <div className="lg:inline">Book Appointment: </div>
             <div className="lg:inline">

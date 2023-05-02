@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Entrance, Lab, Reception, ReceptionTable } from "@/assets/hospital";
 export default function Services() {
   return (
-    <div className="flex flex-col justify-around gap-4 py-4 lg:mt-20 lg:flex-row text-paleSky-700 lg:px-36">
+    <div className="flex flex-col justify-around gap-4 py-4 lg:my-20 lg:flex-row text-paleSky-700 lg:px-36">
       <div className="flex flex-col items-center justify-center gap-8 lg:flex-row">
         <div className="flex flex-col items-center justify-center gap-8">
           <div className="relative max-w-xs overflow-hidden bg-no-repeat bg-cover rounded-2xl">
@@ -53,7 +53,7 @@ export default function Services() {
         </p>
         <Link
           href="/services"
-          className="flex flex-row items-center justify-between p-3 px-6 mt-4 font-semibold text-white rounded-full bg-paleSky-500 text-md lg:w-1/2"
+          className="flex flex-row items-center justify-between p-3 px-6 mt-4 font-semibold text-white rounded-full bg-paleSky-500 hover:bg-paleSky-700 active:bg-paleSky-900 text-md lg:w-1/2"
         >
           SERVICES
           <ChevronRightIcon className="w-4 h-4" aria-hidden="true" />

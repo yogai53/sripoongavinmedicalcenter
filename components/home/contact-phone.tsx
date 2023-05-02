@@ -10,7 +10,7 @@ export default function ContactPhone() {
         src="https://demo.themefisher.com/novena/images/about/img-3.jpg"
         className="hidden h-auto show lg:block"
       />
-      <div className="p-6 text-2xl font-extrabold text-white lg:text-4xl lg:left-1 lg:absolute lg:bottom-5 bg-paleSky-500">
+      <div className="p-6 text-2xl font-extrabold text-white cursor-pointer lg:text-4xl lg:left-1 lg:absolute lg:bottom-5 bg-paleSky-500 hover:bg-paleSky-700 active:bg-paleSky-700">
         <div className="flex flex-row items-center justify-between gap-4 text-center lg:text-left">
           <PhoneIcon className="w-8 h-8" />
           <Link href={`tel:${emergencyPhone}`}>

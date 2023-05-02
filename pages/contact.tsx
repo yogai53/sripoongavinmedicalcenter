@@ -29,7 +29,7 @@ export default function Home() {
       <div className="flex flex-col items-stretch justify-center gap-2 px-2 py-4 lg:gap-4 lg:py-12 lg:flex-row lg:px-48">
         <Link
           href={`tel:${emergencyPhone}`}
-          className="flex flex-col items-center gap-4 p-6 border-4 border-gray-200 border-solid lg:w-1/3"
+          className="flex flex-col items-center gap-4 p-6 border-2 border-solid border-paleSky-300 lg:w-1/3 hover:bg-paleSky-20"
         >
           <EmergencyCall className="w-12 h-12 text-red-800" />
           <p className="text-2xl font-bold text-center text-paleSky-700">
@@ -46,7 +46,7 @@ export default function Home() {
         </Link>
         <Link
           href={`tel:${bookingPhone}`}
-          className="flex flex-col items-center gap-4 p-6 border-4 border-gray-200 border-solid lg:w-1/3"
+          className="flex flex-col items-center gap-4 p-6 border-2 border-solid border-paleSky-300 hover:bg-paleSky-20 lg:w-1/3"
         >
           <AppointmentCall className="w-12 h-12 text-red-800" />
           <p className="text-2xl font-bold text-center text-paleSky-700">
@@ -63,7 +63,7 @@ export default function Home() {
         </Link>
         <Link
           href={`mailto:${hospitalEmail}Enquiry to ${hospitalName}`}
-          className="flex flex-col items-center gap-4 p-6 border-4 border-gray-200 border-solid lg:w-1/3"
+          className="flex flex-col items-center gap-4 p-6 border-2 border-solid border-paleSky-300 hover:bg-paleSky-20 lg:w-1/3"
         >
           <Email className="w-12 h-12 text-red-800" />
           <p className="text-2xl font-bold text-center text-paleSky-700">
@@ -74,7 +74,7 @@ export default function Home() {
         <Link
           href={hospitalLocation}
           target="_blank"
-          className="flex flex-col items-center gap-4 p-6 border-4 border-gray-200 border-solid lg:w-1/3"
+          className="flex flex-col items-center gap-4 p-6 border-2 border-solid border-paleSky-300 hover:bg-paleSky-20 lg:w-1/3"
         >
           <Location className="w-12 h-12 text-red-800" />
           <p className="text-2xl font-bold text-center text-paleSky-700">

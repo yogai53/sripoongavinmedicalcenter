@@ -20,6 +20,7 @@ module.exports = {
           300: "#58ACBB",
           200: "#6FC1D1",
           100: "#89D7E7",
+          20: "#e9f4f6",
         },
       },
       animation: {

@@ -181,7 +181,7 @@ export default function Services() {
         >
           {services.map((service) => (
             <li key={service.title} className="relative">
-              <div className="block w-full overflow-hidden bg-gray-100 rounded-lg group aspect-h-7 aspect-w-10 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100">
+              <div className="block w-full overflow-hidden bg-gray-100 rounded-lg group aspect-h-7 aspect-w-10 focus-within:ring-2 focus-within:paleSky-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100">
                 {service.image}
                 <button
                   type="button"
