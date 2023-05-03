@@ -14,7 +14,7 @@ export default function Experience() {
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               2014
             </time>
-            <h3 className="text-lg font-semibold text-paleSky-700 dark:text-white">
+            <h3 className="text-lg font-semibold text-paleSky-700 ">
               Consultant Neurologist (2014 - 2016)
             </h3>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
@@ -44,7 +44,7 @@ export default function Experience() {
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               2016
             </time>
-            <h3 className="text-lg font-semibold text-paleSky-700 dark:text-white">
+            <h3 className="text-lg font-semibold text-paleSky-700 ">
               Visiting Consultant Neurologist (2016 - 2017)
             </h3>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
@@ -57,7 +57,7 @@ export default function Experience() {
               2017
             </time>
             <div>
-              <h3 className="text-lg font-semibold text-paleSky-700 dark:text-white">
+              <h3 className="text-lg font-semibold text-paleSky-700 ">
                 Assistant & Associate Professor (2017 - 2023)
               </h3>
               <p className="text-base font-normal text-gray-500 dark:text-gray-400">
@@ -66,7 +66,7 @@ export default function Experience() {
             </div>
 
             <div className="mt-5">
-              <h3 className="text-lg font-semibold text-paleSky-700 dark:text-white">
+              <h3 className="text-lg font-semibold text-paleSky-700 ">
                 Visiting Consultant Neurologist (2017 - 2019)
               </h3>
               <p className="text-base font-normal text-gray-500 dark:text-gray-400">
@@ -79,7 +79,7 @@ export default function Experience() {
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               2020
             </time>
-            <h3 className="text-lg font-semibold text-paleSky-700 dark:text-white">
+            <h3 className="text-lg font-semibold text-paleSky-700 ">
               Specialist Neurologist (6 months)
             </h3>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
@@ -91,8 +91,8 @@ export default function Experience() {
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               2023
             </time>
-            <h3 className="text-lg font-semibold text-paleSky-700 dark:text-white">
-              Consultant Neurologist and General Practitioner
+            <h3 className="text-lg font-semibold text-paleSky-700 ">
+              Consultant Neurologist and Consultant Physician
             </h3>
             <p className="text-base font-normal text-gray-500 dark:text-gray-400">
               {hospitalName}
