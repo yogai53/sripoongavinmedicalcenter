@@ -1,30 +1,27 @@
-import { Logo } from "@/assets";
-import {
-  emergencyPhone,
-  hospitalEmail,
-  hospitalName,
-} from "@/constants/hospital";
-import { Linkedin } from "@/icons";
-import { PlusCircleIcon } from "@heroicons/react/24/outline";
-import Image from "next/image";
-import Link from "next/link";
+import { Logo } from '@/assets';
+import { emergencyPhone, hospitalEmail, hospitalName } from '@/constants/hospital';
+import { Linkedin } from '@/icons';
+import { PlusCircleIcon } from '@heroicons/react/24/outline';
+import Image from 'next/image';
+import Link from 'next/link';
 
 const navigation = {
   department: [
-    { name: "Neurology", href: "#" },
-    { name: "General Medicine", href: "#" },
+    { name: 'Neurology', href: '#' },
+    { name: 'General Medicine', href: '#' },
+    { name: 'Obstetrics & Gynaecology', href: '#' },
     // { name: "Cardiology", href: "#" },
   ],
   support: [
-    { name: "Terms & Conditions", href: "/" },
-    { name: "Privacy Policy", href: "/" },
-    { name: "Contact Us", href: "/contact" },
+    { name: 'Terms & Conditions', href: '/' },
+    { name: 'Privacy Policy', href: '/' },
+    { name: 'Contact Us', href: '/contact' },
   ],
   social: [
     {
-      name: "LinkedIn",
-      href: "https://www.linkedin.com/in/dr-chennappan-c",
-      icon: (props: any) => <Linkedin className="w-12 h-12 text-white" />,
+      name: 'LinkedIn',
+      href: 'https://www.linkedin.com/in/dr-chennappan-c',
+      icon: (props: any) => <Linkedin className='w-12 h-12 text-white' />,
     },
     // {
     //   name: "Facebook",
@@ -79,51 +76,47 @@ const navigation = {
 
 export default function Footer() {
   return (
-    <footer className=" bg-paleSky-900" aria-labelledby="footer-heading">
-      <h2 id="footer-heading" className="sr-only">
+    <footer className=' bg-paleSky-900' aria-labelledby='footer-heading'>
+      <h2 id='footer-heading' className='sr-only'>
         Footer
       </h2>
-      <div className="px-6 pb-8 mx-auto lg:pt-16 max-w-7xl sm:pt-24 lg:px-8 lg:pt-32">
-        <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-          <div className="space-y-6">
-            <div className="flex flex-row items-center gap-3">
+      <div className='px-6 pb-8 mx-auto lg:pt-16 max-w-7xl sm:pt-24 lg:px-8 lg:pt-32'>
+        <div className='xl:grid xl:grid-cols-3 xl:gap-8'>
+          <div className='space-y-6'>
+            <div className='flex flex-row items-center gap-3'>
               {/* <Image src={Logo} alt="Logo" className="w-24 rounded-full" /> */}
-              <PlusCircleIcon className="text-white w-36 h-36" />
-              <h2 className="text-2xl font-bold text-white">
-                Shri Poongavin Medical Centre
-              </h2>
+              <PlusCircleIcon className='text-white w-36 h-36' />
+              <h2 className='text-2xl font-bold text-white'>Shri Poongavin Medical Centre</h2>
             </div>
 
-            <p className="leading-6 text-gray-300 text-md">
+            <p className='leading-6 text-gray-300 text-md'>
               Providing best Neurological and General Treatment.
             </p>
-            <div className="flex space-x-6">
+            <div className='flex space-x-6'>
               {navigation.social.map((item) => (
                 <Link
                   key={item.name}
                   href={item.href}
-                  target="_blank"
-                  className="text-gray-500 hover:text-gray-400"
+                  target='_blank'
+                  className='text-gray-500 hover:text-gray-400'
                 >
-                  <span className="sr-only">{item.name}</span>
-                  <item.icon className="w-6 h-6" aria-hidden="true" />
+                  <span className='sr-only'>{item.name}</span>
+                  <item.icon className='w-6 h-6' aria-hidden='true' />
                 </Link>
               ))}
             </div>
           </div>
 
-          <div className="grid gap-8 mt-16 md:grid-cols-2 xl:col-span-2 xl:mt-0">
-            <div className="md:grid md:grid-cols-2 md:gap-8">
+          <div className='grid gap-8 mt-16 md:grid-cols-2 xl:col-span-2 xl:mt-0'>
+            <div className='md:grid md:grid-cols-2 md:gap-8'>
               <div>
-                <h3 className="text-lg font-semibold leading-6 text-white">
-                  Department
-                </h3>
-                <ul role="list" className="mt-6 space-y-4">
+                <h3 className='text-lg font-semibold leading-6 text-white'>Department</h3>
+                <ul role='list' className='mt-6 space-y-4'>
                   {navigation.department.map((item) => (
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-sm leading-6 text-gray-300 hover:text-white"
+                        className='text-sm leading-6 text-gray-300 hover:text-white'
                       >
                         {item.name}
                       </a>
@@ -131,16 +124,14 @@ export default function Footer() {
                   ))}
                 </ul>
               </div>
-              <div className="mt-10 md:mt-0">
-                <h3 className="text-lg font-semibold leading-6 text-white">
-                  Support
-                </h3>
-                <ul role="list" className="mt-6 space-y-4">
+              <div className='mt-10 md:mt-0'>
+                <h3 className='text-lg font-semibold leading-6 text-white'>Support</h3>
+                <ul role='list' className='mt-6 space-y-4'>
                   {navigation.support.map((item) => (
                     <li key={item.name}>
                       <Link
                         href={item.href}
-                        className="text-sm leading-6 text-gray-300 hover:text-white"
+                        className='text-sm leading-6 text-gray-300 hover:text-white'
                       >
                         {item.name}
                       </Link>
@@ -149,28 +140,26 @@ export default function Footer() {
                 </ul>
               </div>
             </div>
-            <div className="text-white md:grid md:gap-8 md:grid-cols-2">
+            <div className='text-white md:grid md:gap-8 md:grid-cols-2'>
               <div>
-                <h3 className="text-lg font-semibold leading-6 ">
-                  Get in Touch
-                </h3>
-                <div className="flex flex-col gap-4 mt-6">
-                  <div className="flex flex-col gap-2">
-                    <div className="flex flex-row text-sm text-gray-300">
+                <h3 className='text-lg font-semibold leading-6 '>Get in Touch</h3>
+                <div className='flex flex-col gap-4 mt-6'>
+                  <div className='flex flex-col gap-2'>
+                    <div className='flex flex-row text-sm text-gray-300'>
                       <p>Support Available for 24/7 </p>
                     </div>
                     <Link
                       href={`mailto:${hospitalEmail}Enquiry to ${hospitalName}`}
-                      className="flex font-bold lg:text-xl"
+                      className='flex font-bold lg:text-xl'
                     >
                       {hospitalEmail}
                     </Link>
                     <Link href={`tel:${emergencyPhone}`}>
-                      <p className="text-xl font-bold">
+                      <p className='text-xl font-bold'>
                         {emergencyPhone.substring(0, 3) +
-                          " " +
+                          ' ' +
                           emergencyPhone.substring(3, 7) +
-                          " " +
+                          ' ' +
                           emergencyPhone.substring(7, 13)}
                       </p>
                     </Link>
@@ -180,9 +169,9 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="pt-8 mt-16 border-t border-white/10 sm:mt-20 lg:mt-24">
-          <p className="text-xs leading-5 text-gray-400">
-            &copy; 2023 {hospitalName}, All rights reserved.
+        <div className='pt-8 mt-16 border-t border-white/10 sm:mt-20 lg:mt-24'>
+          <p className='text-xs leading-5 text-gray-400'>
+            &copy; 2026 {hospitalName}, All rights reserved.
           </p>
         </div>
       </div>
